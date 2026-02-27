@@ -21,10 +21,10 @@ jobs:
 
     # Si tienes solución en la raíz, por ejemplo "Cliente.sln":
     - name: Restore dependencies
-      run: dotnet restore Cliente.sln
+      run: dotnet restore ..\Cliente\Cliente.sln
 
     - name: Build solution
-      run: dotnet build Cliente.sln --configuration Release --no-restore
+      run: dotnet build ..\Cliente\Cliente.sln --configuration Release --no-restore
 
     - name: Run tests
-      run: dotnet test Cliente.sln --no-build --verbosity normal --configuration Release
+      run: dotnet test ..\Cliente\Cliente.sln --no-build --verbosity normal --configuration Release

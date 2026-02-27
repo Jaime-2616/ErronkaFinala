@@ -7,6 +7,9 @@
       "RelativeMoniker": "D:0:0:{D5071647-E82F-4FDB-8E9D-A9BABD3EB115}|Tests\\Tests.csproj|solutionrelative:tests\\tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{205A8922-E2CE-4489-8EE9-28C84E2D2344}|..\\Servidor\\Servidor.csproj|d:\\bien\\servidor\\servidor.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|d:\\bien\\cliente\\cliente\\cliente.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|solutionrelative:cliente\\cliente.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -168,21 +171,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Cliente",
-              "DocumentMoniker": "D:\\Bien\\Cliente\\Cliente\\Cliente.csproj",
-              "RelativeDocumentMoniker": "Cliente\\Cliente.csproj",
-              "ToolTip": "D:\\Bien\\Cliente\\Cliente\\Cliente.csproj",
-              "RelativeToolTip": "Cliente\\Cliente.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-02-27T08:42:57.62Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -193,20 +183,46 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Servidor",
+              "DocumentMoniker": "D:\\Bien\\Servidor\\Servidor.csproj",
+              "RelativeDocumentMoniker": "..\\Servidor\\Servidor.csproj",
+              "ToolTip": "D:\\Bien\\Servidor\\Servidor.csproj",
+              "RelativeToolTip": "..\\Servidor\\Servidor.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-27T09:00:04.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cliente.csproj",
+              "DocumentMoniker": "D:\\Bien\\Cliente\\Cliente\\Cliente.csproj",
+              "RelativeDocumentMoniker": "Cliente\\Cliente.csproj",
+              "ToolTip": "D:\\Bien\\Cliente\\Cliente\\Cliente.csproj",
+              "RelativeToolTip": "Cliente\\Cliente.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-27T08:42:57.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Tests.csproj",
               "DocumentMoniker": "D:\\Bien\\Cliente\\Tests\\Tests.csproj",
               "RelativeDocumentMoniker": "Tests\\Tests.csproj",
               "ToolTip": "D:\\Bien\\Cliente\\Tests\\Tests.csproj",
               "RelativeToolTip": "Tests\\Tests.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2026-02-26T09:01:22.036Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "AuthService.cs",
               "DocumentMoniker": "D:\\Bien\\Cliente\\Cliente\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "Cliente\\Services\\AuthService.cs",
@@ -218,7 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "D:\\Bien\\Cliente\\Cliente\\ViewModels\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "Cliente\\ViewModels\\LoginViewModel.cs",
@@ -230,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "D:\\Bien\\Cliente\\Cliente\\Services\\IAuthService.cs",
               "RelativeDocumentMoniker": "Cliente\\Services\\IAuthService.cs",
@@ -242,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "D:\\Bien\\Cliente\\Tests\\UnitTest1.cs",
               "RelativeDocumentMoniker": "Tests\\UnitTest1.cs",
@@ -254,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Bien\\Servidor\\Program.cs",
               "RelativeDocumentMoniker": "..\\Servidor\\Program.cs",
@@ -266,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "TeamSelectWindow.xaml.cs",
               "DocumentMoniker": "D:\\Bien\\Cliente\\Cliente\\Views\\TeamSelectWindow.xaml.cs",
               "RelativeDocumentMoniker": "Cliente\\Views\\TeamSelectWindow.xaml.cs",
@@ -278,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "LoginPage.xaml.cs",
               "DocumentMoniker": "D:\\Bien\\Cliente\\Cliente\\Views\\LoginPage.xaml.cs",
               "RelativeDocumentMoniker": "Cliente\\Views\\LoginPage.xaml.cs",
@@ -290,18 +306,17 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ViewState": "AgIAAFEHAAAAAAAAAAAmwGAHAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2026-01-22T08:27:12.095Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-22T08:27:12.095Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "RegisterPage.xaml.cs",
               "DocumentMoniker": "D:\\Bien\\Cliente\\Cliente\\Views\\RegisterPage.xaml.cs",
               "RelativeDocumentMoniker": "Cliente\\Views\\RegisterPage.xaml.cs",
@@ -313,7 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "TeamDetailsWindow.xaml.cs",
               "DocumentMoniker": "D:\\Bien\\Cliente\\Cliente\\Views\\TeamDetailsWindow.xaml.cs",
               "RelativeDocumentMoniker": "Cliente\\Views\\TeamDetailsWindow.xaml.cs",
@@ -325,7 +340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "StatsWindow.xaml.cs",
               "DocumentMoniker": "D:\\Bien\\Cliente\\Cliente\\Views\\StatsWindow.xaml.cs",
               "RelativeDocumentMoniker": "Cliente\\Views\\StatsWindow.xaml.cs",
@@ -337,7 +352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "LoginPage.xaml",
               "DocumentMoniker": "D:\\Bien\\Cliente\\Cliente\\Views\\LoginPage.xaml",
               "RelativeDocumentMoniker": "Cliente\\Views\\LoginPage.xaml",
@@ -348,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "MovePickerWindow.xaml.cs",
               "DocumentMoniker": "D:\\Bien\\Cliente\\Cliente\\Views\\MovePickerWindow.xaml.cs",
               "RelativeDocumentMoniker": "Cliente\\Views\\MovePickerWindow.xaml.cs",
@@ -360,7 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "TeamsPage.xaml.cs",
               "DocumentMoniker": "D:\\Bien\\Cliente\\Cliente\\Views\\TeamsPage.xaml.cs",
               "RelativeDocumentMoniker": "Cliente\\Views\\TeamsPage.xaml.cs",
@@ -372,7 +387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "CombatPage.xaml.cs",
               "DocumentMoniker": "D:\\Bien\\Cliente\\Cliente\\Views\\CombatPage.xaml.cs",
               "RelativeDocumentMoniker": "Cliente\\Views\\CombatPage.xaml.cs",
@@ -384,7 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "BorrokaGelaView.xaml.cs",
               "DocumentMoniker": "D:\\Bien\\Cliente\\Cliente\\Views\\BorrokaGelaView.xaml.cs",
               "RelativeDocumentMoniker": "Cliente\\Views\\BorrokaGelaView.xaml.cs",
@@ -396,7 +411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "BorrokaGelaView.xaml",
               "DocumentMoniker": "D:\\Bien\\Cliente\\Cliente\\Views\\BorrokaGelaView.xaml",
               "RelativeDocumentMoniker": "Cliente\\Views\\BorrokaGelaView.xaml",
@@ -407,7 +422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "ServerServices.cs",
               "DocumentMoniker": "D:\\Bien\\Cliente\\Cliente\\Services\\ServerServices.cs",
               "RelativeDocumentMoniker": "Cliente\\Services\\ServerServices.cs",
@@ -419,7 +434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "PokedexService.cs",
               "DocumentMoniker": "D:\\Bien\\Cliente\\Cliente\\Services\\PokedexService.cs",
               "RelativeDocumentMoniker": "Cliente\\Services\\PokedexService.cs",
@@ -431,7 +446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "ChatService.cs",
               "DocumentMoniker": "D:\\Bien\\Cliente\\Cliente\\Services\\ChatService.cs",
               "RelativeDocumentMoniker": "Cliente\\Services\\ChatService.cs",
@@ -443,7 +458,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "LobbyPage.xaml.cs",
               "DocumentMoniker": "D:\\Bien\\Cliente\\Cliente\\Views\\LobbyPage.xaml.cs",
               "RelativeDocumentMoniker": "Cliente\\Views\\LobbyPage.xaml.cs",
@@ -455,7 +470,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "MovesService.cs",
               "DocumentMoniker": "D:\\Bien\\Cliente\\Cliente\\Services\\MovesService.cs",
               "RelativeDocumentMoniker": "Cliente\\Services\\MovesService.cs",
@@ -467,7 +482,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "CombatPage.xaml",
               "DocumentMoniker": "D:\\Bien\\Cliente\\Cliente\\Views\\CombatPage.xaml",
               "RelativeDocumentMoniker": "Cliente\\Views\\CombatPage.xaml",
@@ -478,7 +493,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "RegisterPage.xaml",
               "DocumentMoniker": "D:\\Bien\\Cliente\\Cliente\\Views\\RegisterPage.xaml",
               "RelativeDocumentMoniker": "Cliente\\Views\\RegisterPage.xaml",
@@ -489,7 +504,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "LobbyPage.xaml",
               "DocumentMoniker": "D:\\Bien\\Cliente\\Cliente\\Views\\LobbyPage.xaml",
               "RelativeDocumentMoniker": "Cliente\\Views\\LobbyPage.xaml",
@@ -500,7 +515,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "Move.cs",
               "DocumentMoniker": "D:\\Bien\\Cliente\\Cliente\\Models\\Move.cs",
               "RelativeDocumentMoniker": "Cliente\\Models\\Move.cs",
@@ -512,7 +527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Pokemon.cs",
               "DocumentMoniker": "D:\\Bien\\Cliente\\Cliente\\Models\\Pokemon.cs",
               "RelativeDocumentMoniker": "Cliente\\Models\\Pokemon.cs",
@@ -524,7 +539,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "BattleEngine.cs",
               "DocumentMoniker": "D:\\Bien\\Cliente\\Cliente\\Services\\BattleEngine.cs",
               "RelativeDocumentMoniker": "Cliente\\Services\\BattleEngine.cs",
@@ -536,7 +551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "StatsWindow.xaml",
               "DocumentMoniker": "D:\\Bien\\Cliente\\Cliente\\Views\\StatsWindow.xaml",
               "RelativeDocumentMoniker": "Cliente\\Views\\StatsWindow.xaml",
@@ -548,7 +563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "MovePickerWindow.xaml",
               "DocumentMoniker": "D:\\Bien\\Cliente\\Cliente\\Views\\MovePickerWindow.xaml",
               "RelativeDocumentMoniker": "Cliente\\Views\\MovePickerWindow.xaml",
@@ -559,7 +574,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "TeamDetailsWindow.xaml",
               "DocumentMoniker": "D:\\Bien\\Cliente\\Cliente\\Views\\TeamDetailsWindow.xaml",
               "RelativeDocumentMoniker": "Cliente\\Views\\TeamDetailsWindow.xaml",
@@ -570,7 +585,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "TeamsPage.xaml",
               "DocumentMoniker": "D:\\Bien\\Cliente\\Cliente\\Views\\TeamsPage.xaml",
               "RelativeDocumentMoniker": "Cliente\\Views\\TeamsPage.xaml",
@@ -581,7 +596,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "TeamSelectWindow.xaml",
               "DocumentMoniker": "D:\\Bien\\Cliente\\Cliente\\Views\\TeamSelectWindow.xaml",
               "RelativeDocumentMoniker": "Cliente\\Views\\TeamSelectWindow.xaml",
@@ -592,7 +607,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "moves.json",
               "DocumentMoniker": "D:\\Bien\\Cliente\\Cliente\\JSON\\moves.json",
               "RelativeDocumentMoniker": "Cliente\\JSON\\moves.json",
@@ -604,7 +619,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "MovePickerWindow.xaml",
               "DocumentMoniker": "D:\\Bien\\Cliente\\Cliente\\Views\\MovePickerWindow.xaml",
               "RelativeDocumentMoniker": "Cliente\\Views\\MovePickerWindow.xaml",
@@ -616,7 +631,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "TeamSelectWindow.xaml",
               "DocumentMoniker": "D:\\Bien\\Cliente\\Cliente\\Views\\TeamSelectWindow.xaml",
               "RelativeDocumentMoniker": "Cliente\\Views\\TeamSelectWindow.xaml",
@@ -628,7 +643,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "RegisterPage.xaml",
               "DocumentMoniker": "D:\\Bien\\Cliente\\Cliente\\Views\\RegisterPage.xaml",
               "RelativeDocumentMoniker": "Cliente\\Views\\RegisterPage.xaml",
@@ -639,7 +654,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "combate1.jpg",
               "DocumentMoniker": "D:\\Bien\\Cliente\\Cliente\\Images\\combate1.jpg",
               "RelativeDocumentMoniker": "Cliente\\Images\\combate1.jpg",
