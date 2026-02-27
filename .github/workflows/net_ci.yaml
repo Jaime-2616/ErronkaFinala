@@ -11,20 +11,26 @@ jobs:
     runs-on: windows-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v4
-      with:
-        dotnet-version: '8.0.x'
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
 
-    # Si tienes solución en la raíz, por ejemplo "Cliente.sln":
-    - name: Restore dependencies
-      run: dotnet restore ..\Cliente\Cliente.sln
+      # Restaura todas las dependencias de la solución (Cliente + Tests)
+      - name: Restore
+        run: dotnet restore
 
-    - name: Build solution
-      run: dotnet build ..\Cliente\Cliente.sln --configuration Release --no-restore
+      # Build del proyecto Cliente (WPF) en Release
+      - name: Build Cliente
+        run: dotnet build Cliente/Cliente.csproj --configuration Release --no-restore
 
-    - name: Run tests
-      run: dotnet test ..\Cliente\Cliente.sln --no-build --verbosity normal --configuration Release
+      # Build del proyecto Tests (ya referencia a Cliente)
+      - name: Build Tests
+        run: dotnet build Tests/Tests.csproj --configuration Release --no-restore
+
+      # Ejecutar tests unitarios
+      - name: Test
+        run: dotnet test Tests/Tests.csproj --configuration Release --no-build --verbosity normal
