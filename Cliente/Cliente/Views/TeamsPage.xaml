@@ -1,0 +1,367 @@
+<UserControl x:Class="Cliente.Views.TeamsPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d"
+             d:DesignHeight="1000" d:DesignWidth="1000">
+    <UserControl.Resources>
+        <Color x:Key="AccentColor">#E0625E</Color>
+        <Color x:Key="AccentDark">#C44F4B</Color>
+
+        <SolidColorBrush x:Key="AccentBrush" Color="{StaticResource AccentColor}"/>
+        <SolidColorBrush x:Key="MutedBrush" Color="#8A8A8A"/>
+
+        <DropShadowEffect x:Key="CardShadow"
+                          Color="#44000000"
+                          BlurRadius="18"
+                          ShadowDepth="4"/>
+
+        <Style x:Key="PrimaryButton" TargetType="Button">
+            <Setter Property="Height" Value="48"/>
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Background" Value="{StaticResource AccentBrush}"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="10"
+                                Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#F7F9FB" Offset="0"/>
+                <GradientStop Color="#EEF2F5" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <Ellipse Width="580"
+                 Height="580"
+                 Fill="#20E0625E"
+                 HorizontalAlignment="Right"
+                 VerticalAlignment="Top"
+                 Margin="0,-180,-180,0"/>
+
+        <Border Width="1000"
+                Height="700"
+                Padding="28"
+                CornerRadius="16"
+                Background="White"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Effect="{StaticResource CardShadow}">
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="220"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Left panel: controls -->
+                <StackPanel Grid.Column="0" Margin="0,0,20,0">
+                    <Image Source="pack://application:,,,/Cliente;component/Images/logo.png"
+                           Width="120"
+                           Height="120"
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,12"/>
+
+                    <TextBlock Text="Taldeak"
+                               FontSize="20"
+                               FontWeight="SemiBold"
+                               HorizontalAlignment="Center"
+                               Margin="0,6,0,18"/>
+
+                    <!-- View-only buttons -->
+                    <Button x:Name="BtnViewA"
+                            Content="Talde zerrenda"
+                            Style="{StaticResource PrimaryButton}"
+                            Margin="0,0,0,8"/>
+
+                    <Button x:Name="BtnViewB"
+                            Content="Sortu"
+                            Style="{StaticResource PrimaryButton}"/>
+
+                </StackPanel>
+
+                <!-- Right panel: views -->
+                <Grid Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                    <Grid x:Name="ViewA">
+                        <!-- Use Grid rows so ListBox can expand to fill available height -->
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+                        <TextBlock Text="Talde zerrenda"
+                                   FontSize="18"
+                                   FontWeight="SemiBold"
+                                   Margin="0,0,0,12"
+                                   Grid.Row="0"/>
+
+                        <ListBox x:Name="TeamsListBox"
+                                 Grid.Row="1"
+                                 VerticalAlignment="Stretch"
+                                 HorizontalAlignment="Stretch"
+                                 Margin="0,8,0,4"
+                                 Height="480"/>
+
+                        <!-- Nuevo botn para eliminar el equipo seleccionado (lo borra tambin en BD) -->
+                        <Button x:Name="BtnDeleteTeam"
+                                Grid.Row="2"
+                                Content="Eliminar equipo"
+                                Width="140"
+                                Height="32"
+                                HorizontalAlignment="Right"
+                                Margin="0,4,0,0"
+                                Style="{StaticResource PrimaryButton}"/>
+                    </Grid>
+
+                    <Grid x:Name="ViewB" Visibility="Collapsed">
+                        <!-- Ms espacio para la zona de pokmon -->
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>  <!-- title -->
+                            <RowDefinition Height="Auto"/>  <!-- description -->
+                            <RowDefinition Height="Auto"/>  <!-- team name -->
+                            <RowDefinition Height="Auto"/>  <!-- search -->
+                            <RowDefinition Height="Auto"/>  <!-- combobox + add -->
+                            <RowDefinition Height="*"/>     <!-- current team (ocupa todo lo posible) -->
+                            <RowDefinition Height="Auto"/>  <!-- botones -->
+                        </Grid.RowDefinitions>
+
+                        <TextBlock Text="Sortu"
+                                   FontSize="18"
+                                   FontWeight="SemiBold"
+                                   Margin="0,0,0,12"
+                                   Grid.Row="0"/>
+
+
+                        <!-- TEAM NAME -->
+                        <StackPanel Grid.Row="2" Orientation="Vertical" Margin="0,0,0,8">
+                            <TextBlock Text="Taldearen izena:"
+                                       FontWeight="SemiBold"
+                                       Margin="0,0,0,4"/>
+                            <TextBox x:Name="txtTeamName"
+                                     Height="32"
+                                     HorizontalAlignment="Stretch"/>
+                        </StackPanel>
+
+                        <!-- SEARCH -->
+                        <TextBox x:Name="txtSearch"
+                                 Grid.Row="3"
+                                 Height="42"
+                                 Margin="0,0,0,8"
+                                 VerticalAlignment="Top"
+                                 Text="Bilatu"
+                                 Foreground="{StaticResource MutedBrush}"
+                                 GotFocus="TextBox_GotFocus"
+                                 LostFocus="TextBox_LostFocus"
+                                 HorizontalAlignment="Stretch"/>
+
+                        <!-- COMBOBOX + ADD BUTTON -->
+                        <StackPanel Grid.Row="4" Orientation="Horizontal" Margin="0,0,0,8">
+                            <ComboBox x:Name="cmbPokemons"
+                                      Width="260"
+                                      Height="46"
+                                      HorizontalAlignment="Left"
+                                      Margin="0,0,8,0">
+                                <ComboBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <StackPanel Orientation="Horizontal" Margin="4">
+                                            <Image Source="{Binding Thumbnail}" Width="40" Height="40" Margin="0,0,8,0"/>
+                                            <TextBlock Text="{Binding Name}" VerticalAlignment="Center"/>
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </ComboBox.ItemTemplate>
+                            </ComboBox>
+
+                            <Button x:Name="BtnAddPokemon"
+                                    Content="Gehitu taldean"
+                                    Width="140"
+                                    Style="{StaticResource PrimaryButton}"
+                                    Click="BtnAddPokemon_Click"/>
+                        </StackPanel>
+
+                        <!-- CURRENT TEAM (6 slots, 3x2, ms amplio) -->
+                        <Grid Grid.Row="5" Margin="0,10,0,10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+
+                            <!-- ListBox con ItemsPanel UniformGrid para mostrar 3x2 y permitir seleccin -->
+                            <ListBox x:Name="CurrentTeamListBox"
+                                     Grid.Row="1"
+                                     Margin="0,4,0,4"
+                                     SelectionMode="Single"
+                                     BorderThickness="0"
+                                     HorizontalContentAlignment="Stretch">
+                                <!-- ItemContainerStyle: elimina visuales por defecto y foco -->
+                                <ListBox.ItemContainerStyle>
+                                    <Style TargetType="ListBoxItem">
+                                        <Setter Property="Background" Value="Transparent"/>
+                                        <Setter Property="Padding" Value="0"/>
+                                        <Setter Property="Margin" Value="0"/>
+                                        <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                                        <Setter Property="VerticalContentAlignment" Value="Stretch"/>
+                                        <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+                                        <Setter Property="Template">
+                                            <Setter.Value>
+                                                <ControlTemplate TargetType="ListBoxItem">
+                                                    <!-- plantilla mnima: no hay cambios visuales cuando se selecciona -->
+                                                    <Border Background="{TemplateBinding Background}">
+                                                        <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                                                          VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                                    </Border>
+                                                </ControlTemplate>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </Style>
+                                </ListBox.ItemContainerStyle>
+
+                                <ListBox.ItemsPanel>
+                                    <ItemsPanelTemplate>
+                                        <UniformGrid Rows="2" Columns="3"/>
+                                    </ItemsPanelTemplate>
+                                </ListBox.ItemsPanel>
+
+                                <ListBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <!-- Tarjeta compacta: imagen ms pequea y sin botn "Quitar" -->
+                                        <Border CornerRadius="8" Background="White" Margin="4" Padding="6" Effect="{StaticResource CardShadow}">
+                                            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                                                <!-- Inner border around the image receives the selection highlight and animation -->
+                                                <Border Width="80" Height="80" CornerRadius="8" Background="White" BorderBrush="Transparent" BorderThickness="0"
+                                                        RenderTransformOrigin="0.5,0.5">
+                                                    <!-- initial RenderTransform and Effect -->
+                                                    <Border.RenderTransform>
+                                                        <ScaleTransform ScaleX="1" ScaleY="1"/>
+                                                    </Border.RenderTransform>
+                                                    <Border.Effect>
+                                                        <DropShadowEffect Color="{StaticResource AccentColor}" BlurRadius="0" Opacity="0" ShadowDepth="0"/>
+                                                    </Border.Effect>
+
+                                                    <Border.Style>
+                                                        <Style TargetType="Border">
+                                                            <Setter Property="BorderBrush" Value="Transparent"/>
+                                                            <Setter Property="BorderThickness" Value="0"/>
+                                                            <Style.Triggers>
+                                                                <!-- Visual setters for selection (keeps immediate border change) -->
+                                                                <DataTrigger Binding="{Binding IsSelected, RelativeSource={RelativeSource AncestorType=ListBoxItem}}" Value="True">
+                                                                    <Setter Property="BorderBrush" Value="{StaticResource AccentBrush}"/>
+                                                                    <Setter Property="BorderThickness" Value="3"/>
+                                                                </DataTrigger>
+
+                                                                <!-- Animations: scale + glow on enter, revert on exit -->
+                                                                <DataTrigger Binding="{Binding IsSelected, RelativeSource={RelativeSource AncestorType=ListBoxItem}}" Value="True">
+                                                                    <DataTrigger.EnterActions>
+                                                                        <BeginStoryboard>
+                                                                            <Storyboard>
+                                                                                <DoubleAnimation Storyboard.TargetProperty="(UIElement.RenderTransform).(ScaleTransform.ScaleX)"
+                                                                                                 To="1.06" Duration="0:0:0.12"/>
+                                                                                <DoubleAnimation Storyboard.TargetProperty="(UIElement.RenderTransform).(ScaleTransform.ScaleY)"
+                                                                                                 To="1.06" Duration="0:0:0.12"/>
+                                                                                <DoubleAnimation Storyboard.TargetProperty="(UIElement.Effect).(DropShadowEffect.BlurRadius)"
+                                                                                                 To="12" Duration="0:0:0.12"/>
+                                                                                <DoubleAnimation Storyboard.TargetProperty="(UIElement.Effect).(DropShadowEffect.Opacity)"
+                                                                                                 To="0.75" Duration="0:0:0.12"/>
+                                                                            </Storyboard>
+                                                                        </BeginStoryboard>
+                                                                    </DataTrigger.EnterActions>
+                                                                    <DataTrigger.ExitActions>
+                                                                        <BeginStoryboard>
+                                                                            <Storyboard>
+                                                                                <DoubleAnimation Storyboard.TargetProperty="(UIElement.RenderTransform).(ScaleTransform.ScaleX)"
+                                                                                                 To="1" Duration="0:0:0.12"/>
+                                                                                <DoubleAnimation Storyboard.TargetProperty="(UIElement.RenderTransform).(ScaleTransform.ScaleY)"
+                                                                                                 To="1" Duration="0:0:0.12"/>
+                                                                                <DoubleAnimation Storyboard.TargetProperty="(UIElement.Effect).(DropShadowEffect.BlurRadius)"
+                                                                                                 To="0" Duration="0:0:0.12"/>
+                                                                                <DoubleAnimation Storyboard.TargetProperty="(UIElement.Effect).(DropShadowEffect.Opacity)"
+                                                                                                 To="0" Duration="0:0:0.12"/>
+                                                                            </Storyboard>
+                                                                        </BeginStoryboard>
+                                                                    </DataTrigger.ExitActions>
+                                                                </DataTrigger>
+                                                            </Style.Triggers>
+                                                        </Style>
+                                                    </Border.Style>
+
+                                                    <Image Source="{Binding Thumbnail}"
+                                                           Stretch="Uniform"
+                                                           HorizontalAlignment="Center"
+                                                           VerticalAlignment="Center"/>
+                                                </Border>
+
+                                                <TextBlock Text="{Binding Name}"
+                                                           FontWeight="SemiBold"
+                                                           FontSize="12"
+                                                           TextAlignment="Center"
+                                                           Margin="0,6,0,0"
+                                                           TextTrimming="CharacterEllipsis"
+                                                           Width="110"/>
+                                            </StackPanel>
+                                        </Border>
+                                    </DataTemplate>
+                                </ListBox.ItemTemplate>
+                            </ListBox>
+
+                            <!-- Botn eliminar fuera de las tarjetas: quita el seleccionado en la lista -->
+                            <Button Content="Kendu"
+                                    Grid.Row="2"
+                                    HorizontalAlignment="Left"
+                                    Margin="0,4,0,0"
+                                    Width="140"
+                                    Height="32"
+                                    Style="{StaticResource PrimaryButton}"
+                                    Click="RemoveSelectedPokemon_Click"/>
+                        </Grid>
+
+                        <!-- ACTION BUTTONS ms abajo -->
+                        <StackPanel Orientation="Horizontal"
+                                    Margin="0,10,0,0"
+                                    Grid.Row="6"
+                                    HorizontalAlignment="Left">
+                            <Button x:Name="BtnSaveTeam"
+                                    Content="Gorde taldea"
+                                    Width="160"
+                                    Style="{StaticResource PrimaryButton}"
+                                    Click="BtnSaveTeam_Click"/>
+                            <Button x:Name="BtnClearTeam"
+                                    Content="Garbitu"
+                                    Width="120"
+                                    Margin="12,0,0,0"
+                                    Style="{StaticResource PrimaryButton}"
+                                    Click="BtnClearTeam_Click"/>
+                        </StackPanel>
+                    </Grid>
+                </Grid>
+
+                <!-- Bottom-left overlay button: volver al lobby -->
+                <Button x:Name="BtnBackToLobby"
+                        Grid.ColumnSpan="2"
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Bottom"
+                        Margin="8"
+                        Width="140"
+                        Height="36"
+                        Content="Itzuli lobbyra"
+                        Style="{StaticResource PrimaryButton}"
+                        Click="BtnBackToLobby_Click"/>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>

@@ -1,0 +1,30 @@
+name: .NET CI
+
+on:
+  push:
+    branches: [ "master", "main", "dev" ]
+  pull_request:
+    branches: [ "master", "main" ]
+
+jobs:
+  build-and-test:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '8.0.x'
+
+    # Si tienes solución en la raíz, por ejemplo "Cliente.sln":
+    - name: Restore dependencies
+      run: dotnet restore Cliente.sln
+
+    - name: Build solution
+      run: dotnet build Cliente.sln --configuration Release --no-restore
+
+    - name: Run tests
+      run: dotnet test Cliente.sln --no-build --verbosity normal --configuration Release
