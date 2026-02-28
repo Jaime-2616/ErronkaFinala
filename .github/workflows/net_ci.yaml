@@ -20,16 +20,16 @@ jobs:
           dotnet-version: 8.0.x
 
       - name: Restore Cliente
-        run: dotnet restore Cliente/Cliente.csproj
+        run: dotnet restore Cliente/Cliente/Cliente.csproj
 
       - name: Restore Tests
-        run: dotnet restore Tests/Tests.csproj
+        run: dotnet restore Cliente/Tests/Tests.csproj
 
       - name: Build Cliente
-        run: dotnet build Cliente/Cliente.csproj --configuration Release --no-restore
+        run: dotnet build Cliente/Cliente/Cliente.csproj --configuration Release --no-restore
 
       - name: Build Tests
-        run: dotnet build Tests/Tests.csproj --configuration Release --no-restore
+        run: dotnet build Cliente/Tests/Tests.csproj --configuration Release --no-restore
 
       - name: Run tests
-        run: dotnet test Tests/Tests.csproj --configuration Release --no-build --verbosity normal
+        run: dotnet test Cliente/Tests/Tests.csproj --configuration Release --no-build --verbosity normal
