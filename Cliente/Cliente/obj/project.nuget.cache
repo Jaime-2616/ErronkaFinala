@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "Gba0NjuWzYA=",
   "success": true,
   "projectFilePath": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Cliente.csproj",
-=======
-  "dgSpecHash": "Uvmh712ofCM=",
-  "success": true,
-  "projectFilePath": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Cliente.csproj",
->>>>>>> 4734c714d5d0921e55df30fbb4ea173a5a4c4332
   "expectedPackageFiles": [
     "C:\\Users\\maner\\.nuget\\packages\\microsoft.data.sqlite\\10.0.1\\microsoft.data.sqlite.10.0.1.nupkg.sha512",
     "C:\\Users\\maner\\.nuget\\packages\\microsoft.data.sqlite.core\\10.0.1\\microsoft.data.sqlite.core.10.0.1.nupkg.sha512",
