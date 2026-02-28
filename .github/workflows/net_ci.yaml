@@ -2,9 +2,9 @@ name: .NET CI
 
 on:
   push:
-    branches: [ "master", "main",  ]
+    branches: [ "main", "master" ]
   pull_request:
-    branches: [ "master", "main" ]
+    branches: [ "main" ]
 
 jobs:
   build-and-test:
@@ -19,14 +19,17 @@ jobs:
         with:
           dotnet-version: 8.0.x
 
-- name: Restore Cliente
-  run: dotnet restore Cliente/Cliente.csproj
+      - name: Restore Cliente
+        run: dotnet restore Cliente/Cliente.csproj
 
-- name: Build Cliente
-  run: dotnet build Cliente/Cliente.csproj --configuration Release --no-restore
+      - name: Restore Tests
+        run: dotnet restore Tests/Tests.csproj
 
-- name: Build Tests
-  run: dotnet build Tests/Tests.csproj --configuration Release --no-restore
+      - name: Build Cliente
+        run: dotnet build Cliente/Cliente.csproj --configuration Release --no-restore
 
-- name: Test
-  run: dotnet test Tests/Tests.csproj --configuration Release --no-build --verbosity normal
+      - name: Build Tests
+        run: dotnet build Tests/Tests.csproj --configuration Release --no-restore
+
+      - name: Run tests
+        run: dotnet test Tests/Tests.csproj --configuration Release --no-build --verbosity normal
