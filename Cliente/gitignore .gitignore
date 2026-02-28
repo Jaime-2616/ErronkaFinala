@@ -1,0 +1,65 @@
+# ===== VISUAL STUDIO =====
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+
+# ===== BUILD OUTPUTS =====
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# ===== .NET =====
+*.dll
+*.exe
+*.pdb
+*.cache
+*.tmp
+
+# ===== NUGET =====
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ===== TEST RESULTS =====
+TestResults/
+[Tt]est[Rr]esult*/
+*.coverage
+*.coveragexml
+
+# ===== DATABASE FILES (SQLite del servidor) =====
+*.db
+*.db-shm
+*.db-wal
+
+# ===== LOGS =====
+*.log
+logs/
+
+# ===== WINDOWS =====
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ===== RESHARPER =====
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# ===== RIDER =====
+.idea/
+
+# ===== VSCODE =====
+.vscode/
