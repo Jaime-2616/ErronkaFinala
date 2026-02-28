@@ -208,7 +208,8 @@
               "RelativeToolTip": "..\\Servidor\\Servidor.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-02-28T21:11:56.361Z"
+              "WhenOpened": "2026-02-28T21:11:56.361Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -220,7 +221,8 @@
               "RelativeToolTip": "Cliente\\Cliente.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-02-28T21:11:56.413Z"
+              "WhenOpened": "2026-02-28T21:11:56.413Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -232,7 +234,8 @@
               "RelativeToolTip": "Tests\\Tests.csproj",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-02-28T21:11:56.413Z"
+              "WhenOpened": "2026-02-28T21:11:56.413Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
