@@ -135,6 +135,17 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Images\\combate1.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cliente\\Images\\combate1.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maner\\Downloads\\Bien\\Cliente\\.github\\workflows\\net_ci.yml||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.github\\workflows\\net_ci.yml||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Cliente.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cliente\\Cliente.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maner\\Downloads\\Bien\\.github\\workflows\\net_ci.yaml||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -144,7 +155,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -156,13 +167,52 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "net_ci.yaml",
+              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\Bien\\.github\\workflows\\net_ci.yaml",
+              "RelativeDocumentMoniker": "..\\.github\\workflows\\net_ci.yaml",
+              "ToolTip": "C:\\Users\\maner\\Downloads\\Bien\\.github\\workflows\\net_ci.yaml",
+              "RelativeToolTip": "..\\.github\\workflows\\net_ci.yaml",
+              "ViewState": "AgIAABYAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-02-28T22:01:47.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Cliente.csproj",
+              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Cliente.csproj",
+              "RelativeDocumentMoniker": "Cliente\\Cliente.csproj",
+              "ToolTip": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Cliente.csproj",
+              "RelativeToolTip": "Cliente\\Cliente.csproj",
+              "ViewState": "AgIAAAQAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-28T21:53:58.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "net_ci.yml",
+              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\.github\\workflows\\net_ci.yml",
+              "RelativeDocumentMoniker": ".github\\workflows\\net_ci.yml",
+              "ToolTip": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\.github\\workflows\\net_ci.yml",
+              "RelativeToolTip": ".github\\workflows\\net_ci.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-02-28T21:49:58.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "RegisterPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\RegisterPage.xaml.cs",
               "RelativeDocumentMoniker": "Cliente\\Views\\RegisterPage.xaml.cs",
               "ToolTip": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\RegisterPage.xaml.cs",
               "RelativeToolTip": "Cliente\\Views\\RegisterPage.xaml.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAvwDIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAADwvzkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-28T21:08:10.534Z",
               "EditorCaption": ""
@@ -330,9 +380,10 @@
               "RelativeDocumentMoniker": "Cliente\\Views\\LoginPage.xaml.cs",
               "ToolTip": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\LoginPage.xaml.cs",
               "RelativeToolTip": "Cliente\\Views\\LoginPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAIBJwAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T21:08:10.59Z"
+              "WhenOpened": "2026-02-28T21:08:10.59Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
