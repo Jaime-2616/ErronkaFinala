@@ -48,7 +48,7 @@ namespace Cliente.Views
             this.NavigationService?.Navigate(new LoginPage(_ => { }));
         }
 
-        // Login orrira joateko botoia
+        // Login orrira joateko botoi
         private void BtnGoLogin_Click(object sender, RoutedEventArgs e)
         {
             this.NavigationService?.Navigate(new LoginPage(_ => { }));
