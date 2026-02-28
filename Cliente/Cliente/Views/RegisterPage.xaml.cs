@@ -52,7 +52,7 @@ namespace Cliente.Views
         // Login orrira joateko botoia
 =======
         // Login orrira joateko botoi
->>>>>>> 4734c714d5d0921e55df30fbb4ea173a5a4c4332
+>>>>>>> 4734c714d5d0921e55df30fbb4ea173a5a4c433
         private void BtnGoLogin_Click(object sender, RoutedEventArgs e)
         {
             this.NavigationService?.Navigate(new LoginPage(_ => { }));
