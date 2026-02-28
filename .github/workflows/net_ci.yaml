@@ -1,0 +1,36 @@
+name: .NET CI
+
+on:
+  push:
+    branches: [ "master", "main", "dev" ]
+  pull_request:
+    branches: [ "master", "main" ]
+
+jobs:
+  build-and-test:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+
+      # Restaura todas las dependencias de la solución (Cliente + Tests)
+      - name: Restore
+        run: dotnet restore
+
+      # Build del proyecto Cliente (WPF) en Release
+      - name: Build Cliente
+        run: dotnet build Cliente/Cliente.csproj --configuration Release --no-restore
+
+      # Build del proyecto Tests (ya referencia a Cliente)
+      - name: Build Tests
+        run: dotnet build Tests/Tests.csproj --configuration Release --no-restore
+
+      # Ejecutar tests unitarios
+      - name: Test
+        run: dotnet test Tests/Tests.csproj --configuration Release --no-build --verbosity normal

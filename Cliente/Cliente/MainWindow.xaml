@@ -1,0 +1,10 @@
+﻿<Window x:Class="Cliente.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Cliente App"
+        Width="1400" Height="900"
+        MinWidth="1000" MinHeight="700"
+        WindowStartupLocation="CenterScreen">
+    <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"
+           HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+</Window>
