@@ -1,0 +1,303 @@
+<!-- Nueva ventana: muestra hasta 6 imgenes en 2 filas x 3 columnas -->
+<Window x:Class="Cliente.Views.TeamDetailsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Detalles del equipo" Height="900" Width="1100"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize">
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVis"/>
+
+        <!-- Palette and common styles taken from LoginPage (only visuals) -->
+        <Color x:Key="AccentColor">#E0625E</Color>
+        <Color x:Key="AccentDark">#C44F4B</Color>
+
+        <SolidColorBrush x:Key="AccentBrush" Color="{StaticResource AccentColor}"/>
+        <SolidColorBrush x:Key="MutedBrush" Color="#8A8A8A"/>
+
+        <DropShadowEffect x:Key="CardShadow"
+                          Color="#44000000"
+                          BlurRadius="18"
+                          ShadowDepth="4"/>
+
+        <Style x:Key="PrimaryButton" TargetType="Button">
+            <Setter Property="Height" Value="36"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Background" Value="{StaticResource AccentBrush}"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Padding" Value="10,4"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="8" Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="IconSmall" TargetType="Button">
+            <Setter Property="Width" Value="36"/>
+            <Setter Property="Height" Value="36"/>
+            <Setter Property="Background" Value="{StaticResource AccentBrush}"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="18" Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <!-- Background gradient like login page -->
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#F7F9FB" Offset="0"/>
+                <GradientStop Color="#EEF2F5" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <!-- Decorative ellipse (soft accent) -->
+        <Ellipse Width="580" Height="580" Fill="#20E0625E"
+                 HorizontalAlignment="Right" VerticalAlignment="Top"
+                 Margin="0,-180,-180,0"/>
+
+        <Border CornerRadius="12" Background="White" Padding="12" Effect="{StaticResource CardShadow}">
+            <!-- Wrap existing DockPanel in a Grid so we can overlay the close button top-right
+                 (no other controls moved; DockPanel content preserved) -->
+            <Grid>
+                <DockPanel>
+                    <!-- Cabecera (SIN mover): mismo lugar que antes -->
+                    <StackPanel DockPanel.Dock="Top">
+                        <TextBlock x:Name="LblTitle" FontSize="18" FontWeight="SemiBold" Margin="4" Foreground="#222"/>
+                        <!-- LblCount removed per request (texto de "6 mostrados..." eliminado) -->
+                    </StackPanel>
+
+                    <!-- Panel detalles seleccionado -->
+                    <Border DockPanel.Dock="Bottom"
+                            Margin="0,12,0,0"
+                            Padding="10"
+                            Background="#F7F9FB"
+                            BorderBrush="#DDD"
+                            BorderThickness="1"
+                            CornerRadius="8">
+                        <!-- DataContext = Pokmon seleccionado en el ListBox Items -->
+                        <Grid DataContext="{Binding ElementName=Items, Path=SelectedItem}">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <!-- Imagen -->
+                                <ColumnDefinition Width="*"/>
+                                <!-- Stats -->
+                                <ColumnDefinition Width="260"/>
+                                <!-- Movimientos -->
+                            </Grid.ColumnDefinitions>
+
+                            <!-- Imagen + nombre -->
+                            <StackPanel Grid.Column="0" Margin="0,0,12,0">
+                                <Image Width="140" Height="140" Stretch="Uniform"
+                                       Source="{Binding Thumbnail}"/>
+                                <TextBlock Text="{Binding Name}"
+                                           FontWeight="Bold"
+                                           FontSize="16"
+                                           TextAlignment="Center"
+                                           Margin="0,8,0,0"/>
+                            </StackPanel>
+
+                            <!-- Stats -->
+                            <Border Grid.Column="1" Background="White" CornerRadius="6" Padding="8" BorderBrush="#EEE" BorderThickness="1" Margin="0,0,12,0">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                    </Grid.RowDefinitions>
+
+                                    <TextBlock Grid.Row="0" Grid.Column="0" Text="Id:" FontWeight="SemiBold" Margin="0,0,8,2"/>
+                                    <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding Id}" />
+
+                                    <TextBlock Grid.Row="1" Grid.Column="0" Text="Name:" FontWeight="SemiBold" Margin="0,2,8,2"/>
+                                    <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding Name}" />
+
+                                    <TextBlock Grid.Row="2" Grid.Column="0" Text="HP:" FontWeight="SemiBold" Margin="0,6,8,2"/>
+                                    <TextBlock Grid.Row="2" Grid.Column="1" Text="{Binding HP}" />
+
+                                    <TextBlock Grid.Row="3" Grid.Column="0" Text="Attack:" FontWeight="SemiBold" Margin="0,2,8,2"/>
+                                    <TextBlock Grid.Row="3" Grid.Column="1" Text="{Binding Attack}" />
+
+                                    <TextBlock Grid.Row="4" Grid.Column="0" Text="Defense:" FontWeight="SemiBold" Margin="0,2,8,2"/>
+                                    <TextBlock Grid.Row="4" Grid.Column="1" Text="{Binding Defense}" />
+
+                                    <TextBlock Grid.Row="5" Grid.Column="0" Text="Sp. Attack:" FontWeight="SemiBold" Margin="0,2,8,2"/>
+                                    <TextBlock Grid.Row="5" Grid.Column="1" Text="{Binding SpAttack}" />
+
+                                    <TextBlock Grid.Row="6" Grid.Column="0" Text="Sp. Defense:" FontWeight="SemiBold" Margin="0,2,8,2"/>
+                                    <TextBlock Grid.Row="6" Grid.Column="1" Text="{Binding SpDefense}" />
+
+                                    <TextBlock Grid.Row="7" Grid.Column="0" Text="Speed:" FontWeight="SemiBold" Margin="0,2,8,0"/>
+                                    <TextBlock Grid.Row="7" Grid.Column="1" Text="{Binding Speed}" />
+                                </Grid>
+                            </Border>
+
+                            <!-- Cuatro slots de movimientos -->
+                            <Border Grid.Column="2" Background="White" CornerRadius="6" Padding="8" BorderBrush="#EEE" BorderThickness="1">
+                                <StackPanel>
+                                    <TextBlock Text="Mugimenduak" FontWeight="SemiBold" Margin="0,0,0,8"/>
+
+                                    <!-- Slot 1 -->
+                                    <StackPanel Orientation="Horizontal" Margin="0,0,0,4">
+                                        <TextBox Width="170"
+                                                 IsReadOnly="True"
+                                                 Margin="0,0,4,0"
+                                                 Text="{Binding Move1, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                                        <Button Content="..." Width="40"
+                                                Tag="1"
+                                                Click="SelectMove_Click"
+                                                Background="{StaticResource AccentBrush}"
+                                                Foreground="White"/>
+                                    </StackPanel>
+
+                                    <!-- Slot 2 -->
+                                    <StackPanel Orientation="Horizontal" Margin="0,0,0,4">
+                                        <TextBox Width="170"
+                                                 IsReadOnly="True"
+                                                 Margin="0,0,4,0"
+                                                 Text="{Binding Move2, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                                        <Button Content="..." Width="40"
+                                                Tag="2"
+                                                Click="SelectMove_Click"
+                                                Background="{StaticResource AccentBrush}"
+                                                Foreground="White"/>
+                                    </StackPanel>
+
+                                    <!-- Slot 3 -->
+                                    <StackPanel Orientation="Horizontal" Margin="0,0,0,4">
+                                        <TextBox Width="170"
+                                                 IsReadOnly="True"
+                                                 Margin="0,0,4,0"
+                                                 Text="{Binding Move3, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                                        <Button Content="..." Width="40"
+                                                Tag="3"
+                                                Click="SelectMove_Click"
+                                                Background="{StaticResource AccentBrush}"
+                                                Foreground="White"/>
+                                    </StackPanel>
+
+                                    <!-- Slot 4 -->
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBox Width="170"
+                                                 IsReadOnly="True"
+                                                 Margin="0,0,4,0"
+                                                 Text="{Binding Move4, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                                        <Button Content="..." Width="40"
+                                                Tag="4"
+                                                Click="SelectMove_Click"
+                                                Background="{StaticResource AccentBrush}"
+                                                Foreground="White"/>
+                                    </StackPanel>
+
+                                    <!-- Botn guardar movimientos del equipo -->
+                                    <Button Content="Gorde mugimenduak"
+                                            Margin="0,12,0,0"
+                                            Height="30"
+                                            Style="{StaticResource PrimaryButton}"
+                                            Click="SaveMoves_Click"/>
+                                </StackPanel>
+                            </Border>
+                        </Grid>
+                    </Border>
+
+                    <!-- Rejilla de pokmon (SIN mover): mantenida en la misma posicin -->
+                    <DockPanel Margin="0,20,0,0">
+                        <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                            <ListBox x:Name="Items"
+                                     HorizontalAlignment="Stretch"
+                                     BorderThickness="0"
+                                     SelectionMode="Single">
+
+                                <!-- Remove default ListBoxItem visuals so selection doesn't highlight the whole item -->
+                                <ListBox.ItemContainerStyle>
+                                    <Style TargetType="ListBoxItem">
+                                        <Setter Property="Background" Value="Transparent"/>
+                                        <Setter Property="BorderThickness" Value="0"/>
+                                        <Setter Property="Padding" Value="0"/>
+                                        <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                                        <Setter Property="VerticalContentAlignment" Value="Stretch"/>
+                                        <Setter Property="Template">
+                                            <Setter.Value>
+                                                <ControlTemplate TargetType="ListBoxItem">
+                                                    <ContentPresenter/>
+                                                </ControlTemplate>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </Style>
+                                </ListBox.ItemContainerStyle>
+
+                                <ListBox.ItemsPanel>
+                                    <ItemsPanelTemplate>
+                                        <UniformGrid Rows="2" Columns="3" />
+                                    </ItemsPanelTemplate>
+                                </ListBox.ItemsPanel>
+
+                                <ListBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <!-- Style the item-border to react to selection of the container only (so only this border changes) -->
+                                        <Border Margin="8" CornerRadius="8" Padding="8">
+                                            <Border.Style>
+                                                <Style TargetType="Border">
+                                                    <Setter Property="Background" Value="#FAFAFA"/>
+                                                    <Setter Property="BorderBrush" Value="#EEE"/>
+                                                    <Setter Property="BorderThickness" Value="1"/>
+                                                    <Style.Triggers>
+                                                        <DataTrigger Binding="{Binding RelativeSource={RelativeSource AncestorType=ListBoxItem}, Path=IsSelected}" Value="True">
+                                                            <Setter Property="BorderBrush" Value="{StaticResource AccentBrush}"/>
+                                                            <Setter Property="BorderThickness" Value="2"/>
+                                                            <Setter Property="Background" Value="#FFF6F6"/>
+                                                        </DataTrigger>
+                                                    </Style.Triggers>
+                                                </Style>
+                                            </Border.Style>
+
+                                            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="220">
+                                                <Image Source="{Binding Thumbnail}" Width="120" Height="120" Stretch="Uniform" />
+                                                <TextBlock Text="{Binding Name}" FontWeight="SemiBold" FontSize="13" TextAlignment="Center" Margin="0,8,0,0"/>
+                                            </StackPanel>
+                                        </Border>
+                                    </DataTemplate>
+                                </ListBox.ItemTemplate>
+                            </ListBox>
+                        </ScrollViewer>
+                    </DockPanel>
+
+                </DockPanel>
+
+                <!-- Close button overlayed top-right (moved to top-right as requested) -->
+                <Button Style="{StaticResource IconSmall}"
+                        HorizontalAlignment="Right"
+                        VerticalAlignment="Top"
+                        Margin="0,8,8,0"
+                        ToolTip="Cerrar"
+                        Click="BtnClose_Click">X</Button>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>
