@@ -10,11 +10,7 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Servidor
-<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\maner\Downloads\Bien\Servidor\
-=======
-build_property.ProjectDir = C:\Users\maner\Downloads\a\ErronkaFinala\Servidor\
->>>>>>> 4734c714d5d0921e55df30fbb4ea173a5a4c4332
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 8.0

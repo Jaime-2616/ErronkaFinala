@@ -1,140 +1,140 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\",
+  "WorkspaceRootPath": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|c:\\users\\maner\\downloads\\a\\erronkafinala\\cliente\\cliente\\views\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|solutionrelative:cliente\\views\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|c:\\users\\maner\\downloads\\a\\erronkafinala\\cliente\\cliente\\views\\movepickerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|solutionrelative:cliente\\views\\movepickerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|c:\\users\\maner\\downloads\\a\\erronkafinala\\cliente\\cliente\\views\\statswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|solutionrelative:cliente\\views\\statswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|c:\\users\\maner\\downloads\\a\\erronkafinala\\cliente\\cliente\\views\\teamdetailswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|solutionrelative:cliente\\views\\teamdetailswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|c:\\users\\maner\\downloads\\a\\erronkafinala\\cliente\\cliente\\views\\teamselectwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|solutionrelative:cliente\\views\\teamselectwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|c:\\users\\maner\\downloads\\a\\erronkafinala\\cliente\\cliente\\views\\teamspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|solutionrelative:cliente\\views\\teamspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{205A8922-E2CE-4489-8EE9-28C84E2D2344}|..\\Servidor\\Servidor.csproj|c:\\users\\maner\\downloads\\a\\erronkafinala\\servidor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|c:\\users\\maner\\downloads\\a\\erronkafinala\\cliente\\cliente\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|solutionrelative:cliente\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|c:\\users\\maner\\downloads\\a\\erronkafinala\\cliente\\cliente\\views\\lobbypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|solutionrelative:cliente\\views\\lobbypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|c:\\users\\maner\\downloads\\a\\erronkafinala\\cliente\\cliente\\views\\combatpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|solutionrelative:cliente\\views\\combatpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|c:\\users\\maner\\downloads\\a\\erronkafinala\\cliente\\cliente\\views\\borrokagelaview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|solutionrelative:cliente\\views\\borrokagelaview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|c:\\users\\maner\\downloads\\a\\erronkafinala\\cliente\\cliente\\views\\borrokagelaview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|solutionrelative:cliente\\views\\borrokagelaview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|c:\\users\\maner\\downloads\\a\\erronkafinala\\cliente\\cliente\\services\\serverservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|solutionrelative:cliente\\services\\serverservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|c:\\users\\maner\\downloads\\a\\erronkafinala\\cliente\\cliente\\services\\pokedexservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|solutionrelative:cliente\\services\\pokedexservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|c:\\users\\maner\\downloads\\a\\erronkafinala\\cliente\\cliente\\services\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|solutionrelative:cliente\\services\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|c:\\users\\maner\\downloads\\a\\erronkafinala\\cliente\\cliente\\services\\movesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|solutionrelative:cliente\\services\\movesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|c:\\users\\maner\\downloads\\a\\erronkafinala\\cliente\\cliente\\services\\battleengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|solutionrelative:cliente\\services\\battleengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|c:\\users\\maner\\downloads\\a\\erronkafinala\\cliente\\cliente\\models\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|solutionrelative:cliente\\models\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|c:\\users\\maner\\downloads\\a\\erronkafinala\\cliente\\cliente\\models\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|solutionrelative:cliente\\models\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|c:\\users\\maner\\downloads\\a\\erronkafinala\\cliente\\cliente\\views\\statswindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|solutionrelative:cliente\\views\\statswindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|c:\\users\\maner\\downloads\\a\\erronkafinala\\cliente\\cliente\\views\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|solutionrelative:cliente\\views\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|c:\\users\\maner\\downloads\\a\\erronkafinala\\cliente\\cliente\\views\\combatpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|solutionrelative:cliente\\views\\combatpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|c:\\users\\maner\\downloads\\a\\erronkafinala\\cliente\\cliente\\views\\lobbypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|solutionrelative:cliente\\views\\lobbypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|c:\\users\\maner\\downloads\\a\\erronkafinala\\cliente\\cliente\\views\\teamdetailswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|solutionrelative:cliente\\views\\teamdetailswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|c:\\users\\maner\\downloads\\a\\erronkafinala\\cliente\\cliente\\views\\movepickerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|solutionrelative:cliente\\views\\movepickerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|c:\\users\\maner\\downloads\\a\\erronkafinala\\cliente\\cliente\\views\\teamspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|solutionrelative:cliente\\views\\teamspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|c:\\users\\maner\\downloads\\a\\erronkafinala\\cliente\\cliente\\views\\teamselectwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|solutionrelative:cliente\\views\\teamselectwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|c:\\users\\maner\\downloads\\a\\erronkafinala\\cliente\\cliente\\json\\moves.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|solutionrelative:cliente\\json\\moves.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|c:\\users\\maner\\downloads\\a\\erronkafinala\\cliente\\cliente\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|solutionrelative:cliente\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|c:\\users\\maner\\downloads\\a\\erronkafinala\\cliente\\cliente\\views\\movepickerwindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|solutionrelative:cliente\\views\\movepickerwindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|c:\\users\\maner\\downloads\\a\\erronkafinala\\cliente\\cliente\\views\\teamselectwindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|solutionrelative:cliente\\views\\teamselectwindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|c:\\users\\maner\\downloads\\a\\erronkafinala\\cliente\\cliente\\views\\registerpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|solutionrelative:cliente\\views\\registerpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\RegisterPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cliente\\Views\\RegisterPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|c:\\users\\maner\\downloads\\a\\erronkafinala\\cliente\\cliente\\images\\combate1.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}",
-      "RelativeMoniker": "D:0:0:{241FFD06-88D8-4DF2-9FA1-D72178CB98D2}|Cliente\\Cliente.csproj|solutionrelative:cliente\\images\\combate1.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\MovePickerWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cliente\\Views\\MovePickerWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\StatsWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cliente\\Views\\StatsWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\TeamDetailsWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cliente\\Views\\TeamDetailsWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\TeamSelectWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cliente\\Views\\TeamSelectWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\TeamsPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cliente\\Views\\TeamsPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\maner\\downloads\\a\\erronkafinala\\servidor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\CombatPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cliente\\Views\\CombatPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\BorrokaGelaView.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cliente\\Views\\BorrokaGelaView.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\BorrokaGelaView.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cliente\\Views\\BorrokaGelaView.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Services\\ServerServices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cliente\\Services\\ServerServices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Services\\PokedexService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cliente\\Services\\PokedexService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Services\\ChatService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cliente\\Services\\ChatService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\LobbyPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cliente\\Views\\LobbyPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\LoginPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cliente\\Views\\LoginPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Services\\MovesService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cliente\\Services\\MovesService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\CombatPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cliente\\Views\\CombatPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\RegisterPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cliente\\Views\\RegisterPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\LobbyPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cliente\\Views\\LobbyPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Models\\Move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cliente\\Models\\Move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Models\\Pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cliente\\Models\\Pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Services\\BattleEngine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cliente\\Services\\BattleEngine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\StatsWindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cliente\\Views\\StatsWindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\MovePickerWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cliente\\Views\\MovePickerWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\TeamDetailsWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cliente\\Views\\TeamDetailsWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\TeamsPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cliente\\Views\\TeamsPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\TeamSelectWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cliente\\Views\\TeamSelectWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\JSON\\moves.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cliente\\JSON\\moves.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\LoginPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cliente\\Views\\LoginPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\MovePickerWindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cliente\\Views\\MovePickerWindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\TeamSelectWindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cliente\\Views\\TeamSelectWindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\RegisterPage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cliente\\Views\\RegisterPage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Images\\combate1.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cliente\\Images\\combate1.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}"
     }
   ],
   "DocumentGroupContainers": [
@@ -158,22 +158,22 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "RegisterPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\RegisterPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\RegisterPage.xaml.cs",
               "RelativeDocumentMoniker": "Cliente\\Views\\RegisterPage.xaml.cs",
-              "ToolTip": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\RegisterPage.xaml.cs",
+              "ToolTip": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\RegisterPage.xaml.cs",
               "RelativeToolTip": "Cliente\\Views\\RegisterPage.xaml.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAADIAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAvwDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-28T21:08:10.534Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MovePickerWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\MovePickerWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\MovePickerWindow.xaml.cs",
               "RelativeDocumentMoniker": "Cliente\\Views\\MovePickerWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\MovePickerWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\MovePickerWindow.xaml.cs",
               "RelativeToolTip": "Cliente\\Views\\MovePickerWindow.xaml.cs",
               "ViewState": "AgIAAEYAAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -181,11 +181,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "StatsWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\StatsWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\StatsWindow.xaml.cs",
               "RelativeDocumentMoniker": "Cliente\\Views\\StatsWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\StatsWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\StatsWindow.xaml.cs",
               "RelativeToolTip": "Cliente\\Views\\StatsWindow.xaml.cs",
               "ViewState": "AgIAAGEAAAAAAAAAAADwvwwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -193,11 +193,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "TeamDetailsWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\TeamDetailsWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\TeamDetailsWindow.xaml.cs",
               "RelativeDocumentMoniker": "Cliente\\Views\\TeamDetailsWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\TeamDetailsWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\TeamDetailsWindow.xaml.cs",
               "RelativeToolTip": "Cliente\\Views\\TeamDetailsWindow.xaml.cs",
               "ViewState": "AgIAAHwAAAAAAAAAAAAAAKEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -205,11 +205,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "TeamSelectWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\TeamSelectWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\TeamSelectWindow.xaml.cs",
               "RelativeDocumentMoniker": "Cliente\\Views\\TeamSelectWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\TeamSelectWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\TeamSelectWindow.xaml.cs",
               "RelativeToolTip": "Cliente\\Views\\TeamSelectWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -217,11 +217,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "TeamsPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\TeamsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\TeamsPage.xaml.cs",
               "RelativeDocumentMoniker": "Cliente\\Views\\TeamsPage.xaml.cs",
-              "ToolTip": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\TeamsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\TeamsPage.xaml.cs",
               "RelativeToolTip": "Cliente\\Views\\TeamsPage.xaml.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAswDsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -229,23 +229,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Servidor\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Servidor\\Program.cs",
-              "ToolTip": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Servidor\\Program.cs",
-              "RelativeToolTip": "..\\Servidor\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Servidor\\Program.cs",
+              "RelativeDocumentMoniker": "Servidor\\Program.cs",
+              "ToolTip": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Servidor\\Program.cs",
+              "RelativeToolTip": "Servidor\\Program.cs",
               "ViewState": "AgIAAO4GAAAAAAAAAAAvwPgGAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-28T21:08:10.571Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "CombatPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\CombatPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\CombatPage.xaml.cs",
               "RelativeDocumentMoniker": "Cliente\\Views\\CombatPage.xaml.cs",
-              "ToolTip": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\CombatPage.xaml.cs",
+              "ToolTip": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\CombatPage.xaml.cs",
               "RelativeToolTip": "Cliente\\Views\\CombatPage.xaml.cs",
               "ViewState": "AgIAABoBAAAAAAAAAAAAADMBAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -253,11 +253,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "BorrokaGelaView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\BorrokaGelaView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\BorrokaGelaView.xaml.cs",
               "RelativeDocumentMoniker": "Cliente\\Views\\BorrokaGelaView.xaml.cs",
-              "ToolTip": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\BorrokaGelaView.xaml.cs",
+              "ToolTip": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\BorrokaGelaView.xaml.cs",
               "RelativeToolTip": "Cliente\\Views\\BorrokaGelaView.xaml.cs",
               "ViewState": "AgIAAEQAAAAAAAAAAAAIwFkAAABeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -265,22 +265,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "BorrokaGelaView.xaml",
-              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\BorrokaGelaView.xaml",
+              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\BorrokaGelaView.xaml",
               "RelativeDocumentMoniker": "Cliente\\Views\\BorrokaGelaView.xaml",
-              "ToolTip": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\BorrokaGelaView.xaml",
+              "ToolTip": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\BorrokaGelaView.xaml",
               "RelativeToolTip": "Cliente\\Views\\BorrokaGelaView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-02-28T21:08:10.579Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "ServerServices.cs",
-              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Services\\ServerServices.cs",
+              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Services\\ServerServices.cs",
               "RelativeDocumentMoniker": "Cliente\\Services\\ServerServices.cs",
-              "ToolTip": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Services\\ServerServices.cs",
+              "ToolTip": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Services\\ServerServices.cs",
               "RelativeToolTip": "Cliente\\Services\\ServerServices.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAawEMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -288,11 +288,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "PokedexService.cs",
-              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Services\\PokedexService.cs",
+              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Services\\PokedexService.cs",
               "RelativeDocumentMoniker": "Cliente\\Services\\PokedexService.cs",
-              "ToolTip": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Services\\PokedexService.cs",
+              "ToolTip": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Services\\PokedexService.cs",
               "RelativeToolTip": "Cliente\\Services\\PokedexService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -300,11 +300,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "ChatService.cs",
-              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Services\\ChatService.cs",
+              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Services\\ChatService.cs",
               "RelativeDocumentMoniker": "Cliente\\Services\\ChatService.cs",
-              "ToolTip": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Services\\ChatService.cs",
+              "ToolTip": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Services\\ChatService.cs",
               "RelativeToolTip": "Cliente\\Services\\ChatService.cs",
               "ViewState": "AgIAALIAAAAAAAAAAAAAAMcAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -312,11 +312,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "LobbyPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\LobbyPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\LobbyPage.xaml.cs",
               "RelativeDocumentMoniker": "Cliente\\Views\\LobbyPage.xaml.cs",
-              "ToolTip": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\LobbyPage.xaml.cs",
+              "ToolTip": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\LobbyPage.xaml.cs",
               "RelativeToolTip": "Cliente\\Views\\LobbyPage.xaml.cs",
               "ViewState": "AgIAAG0BAAAAAAAAAADwv3kBAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -324,11 +324,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "LoginPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\LoginPage.xaml.cs",
               "RelativeDocumentMoniker": "Cliente\\Views\\LoginPage.xaml.cs",
-              "ToolTip": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\LoginPage.xaml.cs",
               "RelativeToolTip": "Cliente\\Views\\LoginPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -336,11 +336,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "MovesService.cs",
-              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Services\\MovesService.cs",
+              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Services\\MovesService.cs",
               "RelativeDocumentMoniker": "Cliente\\Services\\MovesService.cs",
-              "ToolTip": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Services\\MovesService.cs",
+              "ToolTip": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Services\\MovesService.cs",
               "RelativeToolTip": "Cliente\\Services\\MovesService.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -348,44 +348,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 17,
               "Title": "CombatPage.xaml",
-              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\CombatPage.xaml",
+              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\CombatPage.xaml",
               "RelativeDocumentMoniker": "Cliente\\Views\\CombatPage.xaml",
-              "ToolTip": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\CombatPage.xaml",
+              "ToolTip": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\CombatPage.xaml",
               "RelativeToolTip": "Cliente\\Views\\CombatPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-02-28T21:08:10.595Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 18,
               "Title": "RegisterPage.xaml",
-              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\RegisterPage.xaml",
+              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\RegisterPage.xaml",
               "RelativeDocumentMoniker": "Cliente\\Views\\RegisterPage.xaml",
-              "ToolTip": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\RegisterPage.xaml",
+              "ToolTip": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\RegisterPage.xaml",
               "RelativeToolTip": "Cliente\\Views\\RegisterPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-02-28T21:08:10.597Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 19,
               "Title": "LobbyPage.xaml",
-              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\LobbyPage.xaml",
+              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\LobbyPage.xaml",
               "RelativeDocumentMoniker": "Cliente\\Views\\LobbyPage.xaml",
-              "ToolTip": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\LobbyPage.xaml",
+              "ToolTip": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\LobbyPage.xaml",
               "RelativeToolTip": "Cliente\\Views\\LobbyPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-02-28T21:08:10.599Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Move.cs",
-              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Models\\Move.cs",
+              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Models\\Move.cs",
               "RelativeDocumentMoniker": "Cliente\\Models\\Move.cs",
-              "ToolTip": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Models\\Move.cs",
+              "ToolTip": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Models\\Move.cs",
               "RelativeToolTip": "Cliente\\Models\\Move.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -393,11 +393,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "Pokemon.cs",
-              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Models\\Pokemon.cs",
+              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Models\\Pokemon.cs",
               "RelativeDocumentMoniker": "Cliente\\Models\\Pokemon.cs",
-              "ToolTip": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Models\\Pokemon.cs",
+              "ToolTip": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Models\\Pokemon.cs",
               "RelativeToolTip": "Cliente\\Models\\Pokemon.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -405,11 +405,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "BattleEngine.cs",
-              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Services\\BattleEngine.cs",
+              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Services\\BattleEngine.cs",
               "RelativeDocumentMoniker": "Cliente\\Services\\BattleEngine.cs",
-              "ToolTip": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Services\\BattleEngine.cs",
+              "ToolTip": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Services\\BattleEngine.cs",
               "RelativeToolTip": "Cliente\\Services\\BattleEngine.cs",
               "ViewState": "AgIAAFMAAAAAAAAAAAAAAHgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -417,11 +417,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "StatsWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\StatsWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\StatsWindow.xaml",
               "RelativeDocumentMoniker": "Cliente\\Views\\StatsWindow.xaml",
-              "ToolTip": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\StatsWindow.xaml",
+              "ToolTip": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\StatsWindow.xaml",
               "RelativeToolTip": "Cliente\\Views\\StatsWindow.xaml",
               "ViewState": "AgIAAL0AAAAAAAAAAAAWwBcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -431,53 +431,53 @@
               "$type": "Document",
               "DocumentIndex": 24,
               "Title": "MovePickerWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\MovePickerWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\MovePickerWindow.xaml",
               "RelativeDocumentMoniker": "Cliente\\Views\\MovePickerWindow.xaml",
-              "ToolTip": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\MovePickerWindow.xaml",
+              "ToolTip": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\MovePickerWindow.xaml",
               "RelativeToolTip": "Cliente\\Views\\MovePickerWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-02-28T21:08:10.612Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "TeamDetailsWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\TeamDetailsWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\TeamDetailsWindow.xaml",
               "RelativeDocumentMoniker": "Cliente\\Views\\TeamDetailsWindow.xaml",
-              "ToolTip": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\TeamDetailsWindow.xaml",
+              "ToolTip": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\TeamDetailsWindow.xaml",
               "RelativeToolTip": "Cliente\\Views\\TeamDetailsWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-02-28T21:08:10.614Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "TeamsPage.xaml",
-              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\TeamsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\TeamsPage.xaml",
               "RelativeDocumentMoniker": "Cliente\\Views\\TeamsPage.xaml",
-              "ToolTip": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\TeamsPage.xaml",
+              "ToolTip": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\TeamsPage.xaml",
               "RelativeToolTip": "Cliente\\Views\\TeamsPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-02-28T21:08:10.616Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "TeamSelectWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\TeamSelectWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\TeamSelectWindow.xaml",
               "RelativeDocumentMoniker": "Cliente\\Views\\TeamSelectWindow.xaml",
-              "ToolTip": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\TeamSelectWindow.xaml",
+              "ToolTip": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\TeamSelectWindow.xaml",
               "RelativeToolTip": "Cliente\\Views\\TeamSelectWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-02-28T21:08:10.616Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "moves.json",
-              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\JSON\\moves.json",
+              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\JSON\\moves.json",
               "RelativeDocumentMoniker": "Cliente\\JSON\\moves.json",
-              "ToolTip": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\JSON\\moves.json",
+              "ToolTip": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\JSON\\moves.json",
               "RelativeToolTip": "Cliente\\JSON\\moves.json",
               "ViewState": "AgIAAGkAAAAAAAAAAAAAAIYAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -485,22 +485,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "LoginPage.xaml",
-              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\LoginPage.xaml",
               "RelativeDocumentMoniker": "Cliente\\Views\\LoginPage.xaml",
-              "ToolTip": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\LoginPage.xaml",
               "RelativeToolTip": "Cliente\\Views\\LoginPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-02-28T21:08:10.616Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "MovePickerWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\MovePickerWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\MovePickerWindow.xaml",
               "RelativeDocumentMoniker": "Cliente\\Views\\MovePickerWindow.xaml",
-              "ToolTip": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\MovePickerWindow.xaml",
+              "ToolTip": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\MovePickerWindow.xaml",
               "RelativeToolTip": "Cliente\\Views\\MovePickerWindow.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -508,11 +508,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "TeamSelectWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\TeamSelectWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\TeamSelectWindow.xaml",
               "RelativeDocumentMoniker": "Cliente\\Views\\TeamSelectWindow.xaml",
-              "ToolTip": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\TeamSelectWindow.xaml",
+              "ToolTip": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\TeamSelectWindow.xaml",
               "RelativeToolTip": "Cliente\\Views\\TeamSelectWindow.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -520,23 +520,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "RegisterPage.xaml",
-              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\RegisterPage.xaml",
+              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\RegisterPage.xaml",
               "RelativeDocumentMoniker": "Cliente\\Views\\RegisterPage.xaml",
-              "ToolTip": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Views\\RegisterPage.xaml",
+              "ToolTip": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Views\\RegisterPage.xaml",
               "RelativeToolTip": "Cliente\\Views\\RegisterPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-02-28T21:08:10.626Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 1,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ViewState": "AgIAAP4UAAAAAAAAAAAAABEVAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
               "WhenOpened": "2026-02-28T21:08:10.655Z"
@@ -545,9 +545,9 @@
               "$type": "Document",
               "DocumentIndex": 33,
               "Title": "combate1.jpg",
-              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Images\\combate1.jpg",
+              "DocumentMoniker": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Images\\combate1.jpg",
               "RelativeDocumentMoniker": "Cliente\\Images\\combate1.jpg",
-              "ToolTip": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Images\\combate1.jpg",
+              "ToolTip": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Images\\combate1.jpg",
               "RelativeToolTip": "Cliente\\Images\\combate1.jpg",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
               "WhenOpened": "2026-02-28T21:08:10.655Z"

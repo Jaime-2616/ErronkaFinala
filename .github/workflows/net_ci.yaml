@@ -19,18 +19,14 @@ jobs:
         with:
           dotnet-version: 8.0.x
 
-      # Restaura todas las dependencias de la solución (Cliente + Tests)
-      - name: Restore
-        run: dotnet restore
+- name: Restore Cliente
+  run: dotnet restore Cliente/Cliente.csproj
 
-      # Build del proyecto Cliente (WPF) en Release
-      - name: Build Cliente
-        run: dotnet build Cliente/Cliente.csproj --configuration Release --no-restore
+- name: Build Cliente
+  run: dotnet build Cliente/Cliente.csproj --configuration Release --no-restore
 
-      # Build del proyecto Tests (ya referencia a Cliente)
-      - name: Build Tests
-        run: dotnet build Tests/Tests.csproj --configuration Release --no-restore
+- name: Build Tests
+  run: dotnet build Tests/Tests.csproj --configuration Release --no-restore
 
-      # Ejecutar tests unitarios
-      - name: Test
-        run: dotnet test Tests/Tests.csproj --configuration Release --no-build --verbosity normal
+- name: Test
+  run: dotnet test Tests/Tests.csproj --configuration Release --no-build --verbosity normal

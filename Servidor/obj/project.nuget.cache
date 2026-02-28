@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "d/HPB99BtSQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\maner\\Downloads\\Bien\\Servidor\\Servidor.csproj",
-=======
-  "dgSpecHash": "WTnhdgXS6qI=",
-  "success": true,
-  "projectFilePath": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Servidor\\Servidor.csproj",
->>>>>>> 4734c714d5d0921e55df30fbb4ea173a5a4c4332
   "expectedPackageFiles": [
     "C:\\Users\\maner\\.nuget\\packages\\microsoft.data.sqlite\\10.0.1\\microsoft.data.sqlite.10.0.1.nupkg.sha512",
     "C:\\Users\\maner\\.nuget\\packages\\microsoft.data.sqlite.core\\10.0.1\\microsoft.data.sqlite.core.10.0.1.nupkg.sha512",
@@ -18,5 +12,15 @@
     "C:\\Users\\maner\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.11\\sqlitepclraw.provider.e_sqlite3.2.1.11.nupkg.sha512",
     "C:\\Users\\maner\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "message": "Problema al leer el archivo de caché C:\\Users\\maner\\Downloads\\Bien\\Servidor\\obj\\project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0.",
+      "projectPath": "C:\\Users\\maner\\Downloads\\Bien\\Servidor\\Servidor.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\maner\\Downloads\\Bien\\Servidor\\Servidor.csproj",
+      "targetGraphs": []
+    }
+  ]
 }
