@@ -345,11 +345,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\maner\\Downloads\\Bien\\Servidor\\Servidor.csproj",
       "projectName": "Servidor",
       "projectPath": "C:\\Users\\maner\\Downloads\\Bien\\Servidor\\Servidor.csproj",
       "packagesPath": "C:\\Users\\maner\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\maner\\Downloads\\Bien\\Servidor\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Servidor\\Servidor.csproj",
+      "projectName": "Servidor",
+      "projectPath": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Servidor\\Servidor.csproj",
+      "packagesPath": "C:\\Users\\maner\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Servidor\\obj\\",
+>>>>>>> 4734c714d5d0921e55df30fbb4ea173a5a4c4332
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\maner\\AppData\\Roaming\\NuGet\\NuGet.Config",

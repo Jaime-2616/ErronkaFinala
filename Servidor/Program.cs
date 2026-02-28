@@ -1141,6 +1141,7 @@ class Program
                 }
             }
             else if (action == "save_team_moves" && parts.Length >= 3)
+<<<<<<< HEAD
 {
     string teamName = parts[1];
     string json = parts[2];
@@ -1261,6 +1262,132 @@ class Program
         WriteResponse(stream, "ERROR|No se pudieron guardar los movimientos: " + ex.Message);
     }
 }
+=======
+            {
+                string teamName = parts[1];
+                string json = parts[2];
+
+                try
+				{
+					using (var conn = new SqliteConnection(connectionString))
+					{
+						conn.Open();
+
+						// Obtener id del equipo
+						long equipoId;
+						using (var cmd = new SqliteCommand("SELECT id FROM equipos WHERE nombre = @n;", conn))
+						{
+							cmd.Parameters.AddWithValue("@n", teamName ?? "");
+							var result = cmd.ExecuteScalar();
+							if (result == null)
+							{
+								WriteResponse(stream, "ERROR|Equipo no encontrado.");
+								return;
+							}
+							equipoId = (long)(result);
+						}
+
+						// Parsear payload
+                        // NUEVO: usar Options para permitir comentarios y saltos de línea
+                        var options = new JsonReaderOptions {
+                            CommentHandling = JsonCommentHandling.Allow,
+                            //AllowTrailingCommas = true
+                        };
+
+                        var doc = JsonDocument.Parse(json, new JsonDocumentOptions
+                        {
+                            AllowTrailingCommas = true,
+                            CommentHandling = JsonCommentHandling.Allow
+                        });
+                        var root = doc.RootElement;
+                        if (!root.TryGetProperty("Pokemons", out var pokesElem) || pokesElem.ValueKind != JsonValueKind.Array)
+                        {
+                            WriteResponse(stream, "ERROR|Formato JSON inválido.");
+                            return;
+                        }
+
+						using (var tran = conn.BeginTransaction())
+						{
+							// Mapa pokemon_id -> equipo_pokemon.id
+							var mapEquipoPokemon = new Dictionary<int, long>();
+
+							using (var cmd = new SqliteCommand(
+								"SELECT id, pokemon_id FROM equipo_pokemon WHERE equipo_id = @e;", conn, tran))
+							{
+								cmd.Parameters.AddWithValue("@e", equipoId);
+								using (var reader = cmd.ExecuteReader())
+								{
+									while (reader.Read())
+									{
+										long epId = reader.GetInt64(0);
+										int pokemonId = reader.GetInt32(1);
+										mapEquipoPokemon[pokemonId] = epId;
+									}
+								}
+							}
+
+							// Borrar movimientos existentes de estos equipo_pokemon
+							if (mapEquipoPokemon.Count > 0)
+							{
+								using var delCmd = new SqliteCommand(
+									"DELETE FROM equipo_pokemon_movimientos WHERE equipo_pokemon_id = @epId;", conn, tran);
+								var pEpId = delCmd.Parameters.Add("@epId", SqliteType.Integer);
+
+								foreach (var epId in mapEquipoPokemon.Values)
+								{
+									pEpId.Value = epId;
+									delCmd.ExecuteNonQuery();
+								}
+							}
+
+							// Insertar nuevos movimientos
+							using (var insCmd = new SqliteCommand(
+								@"INSERT INTO equipo_pokemon_movimientos (equipo_pokemon_id, movimiento_id, slot)
+								  VALUES (@epId, @movId, @slot);", conn, tran))
+							{
+								var pEpId = insCmd.Parameters.Add("@epId", SqliteType.Integer);
+								var pMovId = insCmd.Parameters.Add("@movId", SqliteType.Integer);
+								var pSlot = insCmd.Parameters.Add("@slot", SqliteType.Integer);
+
+								foreach (var p in pokesElem.EnumerateArray())
+								{
+									if (!p.TryGetProperty("PokemonId", out var pidElem) || pidElem.ValueKind != JsonValueKind.Number)
+										continue;
+
+									int pokemonId = pidElem.GetInt32();
+									if (!mapEquipoPokemon.TryGetValue(pokemonId, out long epId))
+										continue; // por si acaso
+
+									// Para cada slot 1-4
+									for (int slot = 1; slot <= 4; slot++)
+									{
+										string propName = $"Move{slot}Id";
+										if (!p.TryGetProperty(propName, out var mvElem) || mvElem.ValueKind != JsonValueKind.Number)
+											continue;
+
+										int movId = mvElem.GetInt32();
+
+										pEpId.Value = epId;
+										pMovId.Value = movId;
+										pSlot.Value = slot;
+
+										insCmd.ExecuteNonQuery();
+									}
+								}
+							}
+
+							tran.Commit();
+						}
+					}
+
+					WriteResponse(stream, "OK|Movimientos guardados.");
+				}
+				catch (Exception ex)
+				{
+					WriteResponse(stream, "ERROR|No se pudieron guardar los movimientos: " + ex.Message);
+				}
+            }
+>>>>>>> 4734c714d5d0921e55df30fbb4ea173a5a4c4332
             else if (action == "challenge" && parts.Length >= 3)
             {
                 // challenge|fromUser|toUser

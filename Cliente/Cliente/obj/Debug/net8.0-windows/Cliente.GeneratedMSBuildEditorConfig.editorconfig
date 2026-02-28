@@ -1,5 +1,10 @@
 is_global = true
 build_property.TargetFramework = net8.0-windows
+<<<<<<< HEAD
+=======
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v8.0
+>>>>>>> 4734c714d5d0921e55df30fbb4ea173a5a4c4332
 build_property.TargetPlatformMinVersion = 7.0
 build_property.UsingMicrosoftNETSdkWeb = 
 build_property.ProjectTypeGuids = 
@@ -8,7 +13,11 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Cliente
+<<<<<<< HEAD
 build_property.ProjectDir = D:\Bien\Cliente\Cliente\
+=======
+build_property.ProjectDir = C:\Users\maner\Downloads\a\ErronkaFinala\Cliente\Cliente\
+>>>>>>> 4734c714d5d0921e55df30fbb4ea173a5a4c4332
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTUseWindowsUIXamlProjections = false

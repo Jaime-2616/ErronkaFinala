@@ -1,3 +1,32 @@
+<<<<<<< HEAD
+=======
+D:\Bien\Cliente\Cliente\obj\Debug\net8.0-windows\Cliente.csproj.AssemblyReference.cache
+D:\Bien\Cliente\Cliente\obj\Debug\net8.0-windows\MainWindow.baml
+D:\Bien\Cliente\Cliente\obj\Debug\net8.0-windows\Views\BorrokaGelaView.baml
+D:\Bien\Cliente\Cliente\obj\Debug\net8.0-windows\Views\LobbyPage.baml
+D:\Bien\Cliente\Cliente\obj\Debug\net8.0-windows\Views\LoginPage.baml
+D:\Bien\Cliente\Cliente\obj\Debug\net8.0-windows\Views\MovePickerWindow.baml
+D:\Bien\Cliente\Cliente\obj\Debug\net8.0-windows\Views\RegisterPage.baml
+D:\Bien\Cliente\Cliente\obj\Debug\net8.0-windows\Views\StatsWindow.baml
+D:\Bien\Cliente\Cliente\obj\Debug\net8.0-windows\Views\TeamDetailsWindow.baml
+D:\Bien\Cliente\Cliente\obj\Debug\net8.0-windows\Views\TeamSelectWindow.baml
+D:\Bien\Cliente\Cliente\obj\Debug\net8.0-windows\Views\TeamsPage.baml
+D:\Bien\Cliente\Cliente\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\Bien\Cliente\Cliente\obj\Debug\net8.0-windows\Views\BorrokaGelaView.g.cs
+D:\Bien\Cliente\Cliente\obj\Debug\net8.0-windows\Views\CombatPage.g.cs
+D:\Bien\Cliente\Cliente\obj\Debug\net8.0-windows\Views\LobbyPage.g.cs
+D:\Bien\Cliente\Cliente\obj\Debug\net8.0-windows\Views\LoginPage.g.cs
+D:\Bien\Cliente\Cliente\obj\Debug\net8.0-windows\Views\MovePickerWindow.g.cs
+D:\Bien\Cliente\Cliente\obj\Debug\net8.0-windows\Views\RegisterPage.g.cs
+D:\Bien\Cliente\Cliente\obj\Debug\net8.0-windows\Views\StatsWindow.g.cs
+D:\Bien\Cliente\Cliente\obj\Debug\net8.0-windows\Views\TeamDetailsWindow.g.cs
+D:\Bien\Cliente\Cliente\obj\Debug\net8.0-windows\Views\TeamSelectWindow.g.cs
+D:\Bien\Cliente\Cliente\obj\Debug\net8.0-windows\Views\TeamsPage.g.cs
+D:\Bien\Cliente\Cliente\obj\Debug\net8.0-windows\App.g.cs
+D:\Bien\Cliente\Cliente\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\Bien\Cliente\Cliente\obj\Debug\net8.0-windows\Cliente_MarkupCompile.cache
+D:\Bien\Cliente\Cliente\obj\Debug\net8.0-windows\Cliente_MarkupCompile.lref
+>>>>>>> 4734c714d5d0921e55df30fbb4ea173a5a4c4332
 D:\Bien\Cliente\Cliente\bin\Debug\net8.0-windows\Cliente.exe
 D:\Bien\Cliente\Cliente\bin\Debug\net8.0-windows\Cliente.deps.json
 D:\Bien\Cliente\Cliente\bin\Debug\net8.0-windows\Cliente.runtimeconfig.json
@@ -30,6 +59,7 @@ D:\Bien\Cliente\Cliente\bin\Debug\net8.0-windows\runtimes\win-arm\native\e_sqlit
 D:\Bien\Cliente\Cliente\bin\Debug\net8.0-windows\runtimes\win-arm64\native\e_sqlite3.dll
 D:\Bien\Cliente\Cliente\bin\Debug\net8.0-windows\runtimes\win-x64\native\e_sqlite3.dll
 D:\Bien\Cliente\Cliente\bin\Debug\net8.0-windows\runtimes\win-x86\native\e_sqlite3.dll
+<<<<<<< HEAD
 D:\Bien\Cliente\Cliente\obj\Debug\net8.0-windows\Cliente.csproj.AssemblyReference.cache
 D:\Bien\Cliente\Cliente\obj\Debug\net8.0-windows\MainWindow.baml
 D:\Bien\Cliente\Cliente\obj\Debug\net8.0-windows\Views\BorrokaGelaView.baml
@@ -56,6 +86,8 @@ D:\Bien\Cliente\Cliente\obj\Debug\net8.0-windows\App.g.cs
 D:\Bien\Cliente\Cliente\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
 D:\Bien\Cliente\Cliente\obj\Debug\net8.0-windows\Cliente_MarkupCompile.cache
 D:\Bien\Cliente\Cliente\obj\Debug\net8.0-windows\Cliente_MarkupCompile.lref
+=======
+>>>>>>> 4734c714d5d0921e55df30fbb4ea173a5a4c4332
 D:\Bien\Cliente\Cliente\obj\Debug\net8.0-windows\Views\CombatPage.baml
 D:\Bien\Cliente\Cliente\obj\Debug\net8.0-windows\Cliente.g.resources
 D:\Bien\Cliente\Cliente\obj\Debug\net8.0-windows\Cliente.GeneratedMSBuildEditorConfig.editorconfig

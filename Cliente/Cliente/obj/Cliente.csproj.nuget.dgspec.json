@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Cliente.csproj": {}
   },
   "projects": {
@@ -12,13 +13,30 @@
         "projectPath": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Cliente.csproj",
         "packagesPath": "C:\\Users\\maner\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\obj\\",
+=======
+    "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Cliente.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Cliente.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Cliente.csproj",
+        "projectName": "Cliente",
+        "projectPath": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\Cliente.csproj",
+        "packagesPath": "C:\\Users\\maner\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maner\\Downloads\\a\\ErronkaFinala\\Cliente\\Cliente\\obj\\",
+>>>>>>> 4734c714d5d0921e55df30fbb4ea173a5a4c4332
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\maner\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
+<<<<<<< HEAD
           "net8.0-windows7.0"
+=======
+          "net8.0-windows"
+>>>>>>> 4734c714d5d0921e55df30fbb4ea173a5a4c4332
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -26,7 +44,11 @@
         },
         "frameworks": {
           "net8.0-windows7.0": {
+<<<<<<< HEAD
             "targetAlias": "net8.0-windows7.0",
+=======
+            "targetAlias": "net8.0-windows",
+>>>>>>> 4734c714d5d0921e55df30fbb4ea173a5a4c4332
             "projectReferences": {}
           }
         },
@@ -44,7 +66,11 @@
       },
       "frameworks": {
         "net8.0-windows7.0": {
+<<<<<<< HEAD
           "targetAlias": "net8.0-windows7.0",
+=======
+          "targetAlias": "net8.0-windows",
+>>>>>>> 4734c714d5d0921e55df30fbb4ea173a5a4c4332
           "dependencies": {
             "Microsoft.Data.Sqlite": {
               "target": "Package",

@@ -4,11 +4,16 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 D:\Bien\Cliente\Cliente\obj\Debug\net8.0-windows\
+=======
+C:\Users\maner\Downloads\a\ErronkaFinala\Cliente\Cliente\obj\Debug\net8.0-windows\
+>>>>>>> 4734c714d5d0921e55df30fbb4ea173a5a4c4332
 Cliente
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
+<<<<<<< HEAD
 D:\Bien\Cliente\Cliente\App.xaml
 11-912707716
 
@@ -17,4 +22,14 @@ D:\Bien\Cliente\Cliente\App.xaml
 MainWindow.xaml;Views\BorrokaGelaView.xaml;Views\CombatPage.xaml;Views\LobbyPage.xaml;Views\LoginPage.xaml;Views\MovePickerWindow.xaml;Views\RegisterPage.xaml;Views\StatsWindow.xaml;Views\TeamDetailsWindow.xaml;Views\TeamSelectWindow.xaml;Views\TeamsPage.xaml;
 
 False
+=======
+C:\Users\maner\Downloads\a\ErronkaFinala\Cliente\Cliente\App.xaml
+11-912707716
+
+23-1043861012
+202-602369695
+MainWindow.xaml;Views\BorrokaGelaView.xaml;Views\CombatPage.xaml;Views\LobbyPage.xaml;Views\LoginPage.xaml;Views\MovePickerWindow.xaml;Views\RegisterPage.xaml;Views\StatsWindow.xaml;Views\TeamDetailsWindow.xaml;Views\TeamSelectWindow.xaml;Views\TeamsPage.xaml;
+
+True
+>>>>>>> 4734c714d5d0921e55df30fbb4ea173a5a4c4332
 
