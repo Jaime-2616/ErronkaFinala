@@ -23,14 +23,12 @@ namespace Cliente.Services
                     client.Connect(serverIp, serverPort);
                     NetworkStream stream = client.GetStream();
 
-                    // Mezua era egokian prestatzen eta bidaltzen du
                     string message = $"{action}|{p1}|{p2}\n";
                     Console.WriteLine("Enviando: [" + message.Replace("\n", "\\n") + "]");
                     byte[] data = Encoding.UTF8.GetBytes(message);
                     stream.Write(data, 0, data.Length);
                     stream.Flush();
 
-                    // Zerbitzariaren erantzuna jasotzen du
                     var sb = new StringBuilder();
                     byte[] buffer = new byte[1024];
                     int bytesRead;
@@ -49,12 +47,10 @@ namespace Cliente.Services
             }
             catch (Exception ex)
             {
-                // Konexioan errorea gertatuz gero, errore-mezua bueltatzen du
                 return "ERROR|No se pudo conectar al servidor: " + ex.Message;
             }
         }
 
-        // Login egiteko laguntzailea: erabiltzailea ondo autentikatzen bada, CurrentUsername ezartzen du
         public static string Login(string username, string password)
         {
             string resp = SendRequest("login", username, password);

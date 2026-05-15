@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\maner\\Downloads\\Bien\\Servidor\\Servidor.csproj": {}
+    "F:\\Clase\\ErronkaFinala\\Servidor\\Servidor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\maner\\Downloads\\Bien\\Servidor\\Servidor.csproj": {
+    "F:\\Clase\\ErronkaFinala\\Servidor\\Servidor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\maner\\Downloads\\Bien\\Servidor\\Servidor.csproj",
+        "projectUniqueName": "F:\\Clase\\ErronkaFinala\\Servidor\\Servidor.csproj",
         "projectName": "Servidor",
-        "projectPath": "C:\\Users\\maner\\Downloads\\Bien\\Servidor\\Servidor.csproj",
+        "projectPath": "F:\\Clase\\ErronkaFinala\\Servidor\\Servidor.csproj",
         "packagesPath": "C:\\Users\\maner\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\maner\\Downloads\\Bien\\Servidor\\obj\\",
+        "outputPath": "F:\\Clase\\ErronkaFinala\\Servidor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\maner\\AppData\\Roaming\\NuGet\\NuGet.Config",

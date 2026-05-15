@@ -369,6 +369,8 @@ namespace Cliente.Views
             wnd.ShowDialog();
         }
 
+       
+
         // Top 5 sailkapenaren datuak
         private sealed class LeaderboardRow
         {

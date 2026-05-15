@@ -345,11 +345,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\maner\\Downloads\\Bien\\Servidor\\Servidor.csproj",
+      "projectUniqueName": "F:\\Clase\\ErronkaFinala\\Servidor\\Servidor.csproj",
       "projectName": "Servidor",
-      "projectPath": "C:\\Users\\maner\\Downloads\\Bien\\Servidor\\Servidor.csproj",
+      "projectPath": "F:\\Clase\\ErronkaFinala\\Servidor\\Servidor.csproj",
       "packagesPath": "C:\\Users\\maner\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\maner\\Downloads\\Bien\\Servidor\\obj\\",
+      "outputPath": "F:\\Clase\\ErronkaFinala\\Servidor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\maner\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -408,13 +408,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché C:\\Users\\maner\\Downloads\\Bien\\Servidor\\obj\\project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0."
-    }
-  ]
+  }
 }

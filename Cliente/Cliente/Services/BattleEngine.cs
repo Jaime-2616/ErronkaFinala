@@ -47,7 +47,6 @@ namespace Cliente.Services
         public int AliveCountTeamA() => _teamA.Count(p => (p.HP ?? 0) > 0);
         public int AliveCountTeamB() => _teamB.Count(p => (p.HP ?? 0) > 0);
 
-        // Borroka-txanda bat exekutatzen du eta emaitza bueltatzen du
         public TurnResult PlayTurn(string playerAName, string playerBName, int moveSlotA, int moveSlotB)
         {
             AdvanceTeamA();
@@ -62,11 +61,9 @@ namespace Cliente.Services
             int speedA = a.Speed ?? 0;
             int speedB = b.Speed ?? 0;
 
-            // Zein Pokemonek erasotzen duen lehenengo erabakitzen du (abiadura edo ausaz)
             bool aFirst = speedA > speedB || (speedA == speedB && _rng.Next(2) == 0);
             var actions = new List<TurnAction>(2);
 
-            // Erasoaren kalkulua eta aplikazioa
             void DoAttack(Pokemon attacker, Pokemon defender, bool attackerIsA, int moveSlot)
             {
                 if ((attacker.HP ?? 0) <= 0) return;
@@ -88,7 +85,6 @@ namespace Cliente.Services
                     return;
                 }
 
-                // Fisikoa edo berezia den erasoaren arabera estatistikak aukeratzen dira
                 bool isPhysical = string.Equals(category, "物理", StringComparison.OrdinalIgnoreCase);
                 bool isSpecial = string.Equals(category, "特殊", StringComparison.OrdinalIgnoreCase);
                 if (!isPhysical && !isSpecial) isPhysical = true;
@@ -99,7 +95,6 @@ namespace Cliente.Services
                 atkStat = Math.Max(atkStat, 1);
                 defStat = Math.Max(defStat, 1);
 
-                // Kaltearen formula sinplifikatua
                 double levelTerm = (2.0 * DefaultLevel) / 5.0 + 2.0;
                 double baseDamage = ((levelTerm * basePower * atkStat / defStat) / 50.0) + 2.0;
 

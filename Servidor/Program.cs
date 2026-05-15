@@ -25,7 +25,7 @@ class Program
         
     static void Main()
     {
-        InitializeDatabase(); // Crea todas las tablas necesarias y carga JSONs si faltan datos
+        InitializeDatabase();
 
         listener = new TcpListener(IPAddress.Any, 5000);
         listener.Start();
@@ -1141,253 +1141,126 @@ class Program
                 }
             }
             else if (action == "save_team_moves" && parts.Length >= 3)
-<<<<<<< HEAD
-{
-    string teamName = parts[1];
-    string json = parts[2];
-
-    try
-    {
-        using (var conn = new SqliteConnection(connectionString))
-        {
-            conn.Open();
-
-            // Obtener id del equipo
-            long equipoId;
-            using (var cmd = new SqliteCommand("SELECT id FROM equipos WHERE nombre = @n;", conn))
-            {
-                cmd.Parameters.AddWithValue("@n", teamName ?? "");
-                var result = cmd.ExecuteScalar();
-                if (result == null)
-                {
-                    WriteResponse(stream, "ERROR|Equipo no encontrado.");
-                    return;
-                }
-                equipoId = (long)(result);
-            }
-
-            // ⚠️ QUITAR opciones de comentarios: JsonDocument EZ du iruzkinik onartzen
-            using var doc = JsonDocument.Parse(json, new JsonDocumentOptions
-            {
-                AllowTrailingCommas = true
-                // CommentHandling ez da hemen erabili behar
-            });
-            var root = doc.RootElement;
-            if (!root.TryGetProperty("Pokemons", out var pokesElem) || 
-                pokesElem.ValueKind != JsonValueKind.Array)
-            {
-                WriteResponse(stream, "ERROR|Formato JSON inválido.");
-                return;
-            }
-
-            using (var tran = conn.BeginTransaction())
-            {
-                // Mapa pokemon_id -> equipo_pokemon.id
-                var mapEquipoPokemon = new Dictionary<int, long>();
-
-                using (var cmd = new SqliteCommand(
-                    "SELECT id, pokemon_id FROM equipo_pokemon WHERE equipo_id = @e;", conn, tran))
-                {
-                    cmd.Parameters.AddWithValue("@e", equipoId);
-                    using (var reader = cmd.ExecuteReader())
-                    {
-                        while (reader.Read())
-                        {
-                            long epId = reader.GetInt64(0);
-                            int pokemonId = reader.GetInt32(1);
-                            mapEquipoPokemon[pokemonId] = epId;
-                        }
-                    }
-                }
-
-                // Borrar movimientos existentes
-                if (mapEquipoPokemon.Count > 0)
-                {
-                    using var delCmd = new SqliteCommand(
-                        "DELETE FROM equipo_pokemon_movimientos WHERE equipo_pokemon_id = @epId;", conn, tran);
-                    var pEpId = delCmd.Parameters.Add("@epId", SqliteType.Integer);
-
-                    foreach (var epId in mapEquipoPokemon.Values)
-                    {
-                        pEpId.Value = epId;
-                        delCmd.ExecuteNonQuery();
-                    }
-                }
-
-                // Insertar nuevos movimientos
-                using (var insCmd = new SqliteCommand(
-                    @"INSERT INTO equipo_pokemon_movimientos (equipo_pokemon_id, movimiento_id, slot)
-                      VALUES (@epId, @movId, @slot);", conn, tran))
-                {
-                    var pEpId = insCmd.Parameters.Add("@epId", SqliteType.Integer);
-                    var pMovId = insCmd.Parameters.Add("@movId", SqliteType.Integer);
-                    var pSlot = insCmd.Parameters.Add("@slot", SqliteType.Integer);
-
-                    foreach (var p in pokesElem.EnumerateArray())
-                    {
-                        if (!p.TryGetProperty("PokemonId", out var pidElem) || 
-                            pidElem.ValueKind != JsonValueKind.Number)
-                            continue;
-
-                        int pokemonId = pidElem.GetInt32();
-                        if (!mapEquipoPokemon.TryGetValue(pokemonId, out long epId))
-                            continue;
-
-                        for (int slot = 1; slot <= 4; slot++)
-                        {
-                            string propName = $"Move{slot}Id";
-                            if (!p.TryGetProperty(propName, out var mvElem) || 
-                                mvElem.ValueKind != JsonValueKind.Number)
-                                continue;
-
-                            int movId = mvElem.GetInt32();
-
-                            pEpId.Value = epId;
-                            pMovId.Value = movId;
-                            pSlot.Value = slot;
-
-                            insCmd.ExecuteNonQuery();
-                        }
-                    }
-                }
-
-                tran.Commit();
-            }
-        }
-
-        WriteResponse(stream, "OK|Movimientos guardados.");
-    }
-    catch (Exception ex)
-    {
-        WriteResponse(stream, "ERROR|No se pudieron guardar los movimientos: " + ex.Message);
-    }
-}
-=======
             {
                 string teamName = parts[1];
                 string json = parts[2];
 
                 try
-				{
-					using (var conn = new SqliteConnection(connectionString))
-					{
-						conn.Open();
+                {
+                    using (var conn = new SqliteConnection(connectionString))
+                    {
+                        conn.Open();
 
-						// Obtener id del equipo
-						long equipoId;
-						using (var cmd = new SqliteCommand("SELECT id FROM equipos WHERE nombre = @n;", conn))
-						{
-							cmd.Parameters.AddWithValue("@n", teamName ?? "");
-							var result = cmd.ExecuteScalar();
-							if (result == null)
-							{
-								WriteResponse(stream, "ERROR|Equipo no encontrado.");
-								return;
-							}
-							equipoId = (long)(result);
-						}
-
-						// Parsear payload
-                        // NUEVO: usar Options para permitir comentarios y saltos de línea
-                        var options = new JsonReaderOptions {
-                            CommentHandling = JsonCommentHandling.Allow,
-                            //AllowTrailingCommas = true
-                        };
-
-                        var doc = JsonDocument.Parse(json, new JsonDocumentOptions
+                        // Obtener id del equipo
+                        long equipoId;
+                        using (var cmd = new SqliteCommand("SELECT id FROM equipos WHERE nombre = @n;", conn))
                         {
-                            AllowTrailingCommas = true,
-                            CommentHandling = JsonCommentHandling.Allow
+                            cmd.Parameters.AddWithValue("@n", teamName ?? "");
+                            var result = cmd.ExecuteScalar();
+                            if (result == null)
+                            {
+                                WriteResponse(stream, "ERROR|Equipo no encontrado.");
+                                return;
+                            }
+                            equipoId = (long)(result);
+                        }
+
+                        // JsonDocument no admite comentarios
+                        using var doc = JsonDocument.Parse(json, new JsonDocumentOptions
+                        {
+                            AllowTrailingCommas = true
                         });
+
                         var root = doc.RootElement;
-                        if (!root.TryGetProperty("Pokemons", out var pokesElem) || pokesElem.ValueKind != JsonValueKind.Array)
+                        if (!root.TryGetProperty("Pokemons", out var pokesElem) ||
+                            pokesElem.ValueKind != JsonValueKind.Array)
                         {
                             WriteResponse(stream, "ERROR|Formato JSON inválido.");
                             return;
                         }
 
-						using (var tran = conn.BeginTransaction())
-						{
-							// Mapa pokemon_id -> equipo_pokemon.id
-							var mapEquipoPokemon = new Dictionary<int, long>();
+                        using (var tran = conn.BeginTransaction())
+                        {
+                            // Mapa pokemon_id -> equipo_pokemon.id
+                            var mapEquipoPokemon = new Dictionary<int, long>();
 
-							using (var cmd = new SqliteCommand(
-								"SELECT id, pokemon_id FROM equipo_pokemon WHERE equipo_id = @e;", conn, tran))
-							{
-								cmd.Parameters.AddWithValue("@e", equipoId);
-								using (var reader = cmd.ExecuteReader())
-								{
-									while (reader.Read())
-									{
-										long epId = reader.GetInt64(0);
-										int pokemonId = reader.GetInt32(1);
-										mapEquipoPokemon[pokemonId] = epId;
-									}
-								}
-							}
+                            using (var cmd = new SqliteCommand(
+                                "SELECT id, pokemon_id FROM equipo_pokemon WHERE equipo_id = @e;", conn, tran))
+                            {
+                                cmd.Parameters.AddWithValue("@e", equipoId);
+                                using (var reader = cmd.ExecuteReader())
+                                {
+                                    while (reader.Read())
+                                    {
+                                        long epId = reader.GetInt64(0);
+                                        int pokemonId = reader.GetInt32(1);
+                                        mapEquipoPokemon[pokemonId] = epId;
+                                    }
+                                }
+                            }
 
-							// Borrar movimientos existentes de estos equipo_pokemon
-							if (mapEquipoPokemon.Count > 0)
-							{
-								using var delCmd = new SqliteCommand(
-									"DELETE FROM equipo_pokemon_movimientos WHERE equipo_pokemon_id = @epId;", conn, tran);
-								var pEpId = delCmd.Parameters.Add("@epId", SqliteType.Integer);
+                            // Borrar movimientos existentes
+                            if (mapEquipoPokemon.Count > 0)
+                            {
+                                using var delCmd = new SqliteCommand(
+                                    "DELETE FROM equipo_pokemon_movimientos WHERE equipo_pokemon_id = @epId;", conn, tran);
+                                var pEpId = delCmd.Parameters.Add("@epId", SqliteType.Integer);
 
-								foreach (var epId in mapEquipoPokemon.Values)
-								{
-									pEpId.Value = epId;
-									delCmd.ExecuteNonQuery();
-								}
-							}
+                                foreach (var epId in mapEquipoPokemon.Values)
+                                {
+                                    pEpId.Value = epId;
+                                    delCmd.ExecuteNonQuery();
+                                }
+                            }
 
-							// Insertar nuevos movimientos
-							using (var insCmd = new SqliteCommand(
-								@"INSERT INTO equipo_pokemon_movimientos (equipo_pokemon_id, movimiento_id, slot)
-								  VALUES (@epId, @movId, @slot);", conn, tran))
-							{
-								var pEpId = insCmd.Parameters.Add("@epId", SqliteType.Integer);
-								var pMovId = insCmd.Parameters.Add("@movId", SqliteType.Integer);
-								var pSlot = insCmd.Parameters.Add("@slot", SqliteType.Integer);
+                            // Insertar nuevos movimientos
+                            using (var insCmd = new SqliteCommand(
+                                @"INSERT INTO equipo_pokemon_movimientos (equipo_pokemon_id, movimiento_id, slot)
+                                  VALUES (@epId, @movId, @slot);", conn, tran))
+                            {
+                                var pEpId = insCmd.Parameters.Add("@epId", SqliteType.Integer);
+                                var pMovId = insCmd.Parameters.Add("@movId", SqliteType.Integer);
+                                var pSlot = insCmd.Parameters.Add("@slot", SqliteType.Integer);
 
-								foreach (var p in pokesElem.EnumerateArray())
-								{
-									if (!p.TryGetProperty("PokemonId", out var pidElem) || pidElem.ValueKind != JsonValueKind.Number)
-										continue;
+                                foreach (var p in pokesElem.EnumerateArray())
+                                {
+                                    if (!p.TryGetProperty("PokemonId", out var pidElem) ||
+                                        pidElem.ValueKind != JsonValueKind.Number)
+                                        continue;
 
-									int pokemonId = pidElem.GetInt32();
-									if (!mapEquipoPokemon.TryGetValue(pokemonId, out long epId))
-										continue; // por si acaso
+                                    int pokemonId = pidElem.GetInt32();
+                                    if (!mapEquipoPokemon.TryGetValue(pokemonId, out long epId))
+                                        continue;
 
-									// Para cada slot 1-4
-									for (int slot = 1; slot <= 4; slot++)
-									{
-										string propName = $"Move{slot}Id";
-										if (!p.TryGetProperty(propName, out var mvElem) || mvElem.ValueKind != JsonValueKind.Number)
-											continue;
+                                    for (int slot = 1; slot <= 4; slot++)
+                                    {
+                                        string propName = $"Move{slot}Id";
+                                        if (!p.TryGetProperty(propName, out var mvElem) ||
+                                            mvElem.ValueKind != JsonValueKind.Number)
+                                            continue;
 
-										int movId = mvElem.GetInt32();
+                                        int movId = mvElem.GetInt32();
 
-										pEpId.Value = epId;
-										pMovId.Value = movId;
-										pSlot.Value = slot;
+                                        pEpId.Value = epId;
+                                        pMovId.Value = movId;
+                                        pSlot.Value = slot;
 
-										insCmd.ExecuteNonQuery();
-									}
-								}
-							}
+                                        insCmd.ExecuteNonQuery();
+                                    }
+                                }
+                            }
 
-							tran.Commit();
-						}
-					}
+                            tran.Commit();
+                        }
+                    }
 
-					WriteResponse(stream, "OK|Movimientos guardados.");
-				}
-				catch (Exception ex)
-				{
-					WriteResponse(stream, "ERROR|No se pudieron guardar los movimientos: " + ex.Message);
-				}
+                    WriteResponse(stream, "OK|Movimientos guardados.");
+                }
+                catch (Exception ex)
+                {
+                    WriteResponse(stream, "ERROR|No se pudieron guardar los movimientos: " + ex.Message);
+                }
             }
->>>>>>> 4734c714d5d0921e55df30fbb4ea173a5a4c4332
             else if (action == "challenge" && parts.Length >= 3)
             {
                 // challenge|fromUser|toUser
@@ -1803,6 +1676,65 @@ class Program
 
                 string json = JsonSerializer.Serialize(payload);
                 WriteResponse(stream, "OK|" + json);
+            }
+            else if (action == "get_battle_history" && parts.Length >= 2)
+            {
+                string username = parts[1];
+
+                try
+                {
+                    using var conn = new SqliteConnection(connectionString);
+                    conn.Open();
+
+                    using var cmd = new SqliteCommand(@"
+                        SELECT Player1, Player2, Winner, EndReason,
+                               Player1AliveCount, Player2AliveCount, DateUtc
+                        FROM BattleHistory
+                        WHERE Player1 = @u OR Player2 = @u
+                        ORDER BY DateUtc DESC
+                        LIMIT 50;", conn);
+
+                    cmd.Parameters.AddWithValue("@u", username);
+
+                    using var reader = cmd.ExecuteReader();
+                    var list = new List<object>();
+
+                    while (reader.Read())
+                    {
+                        string p1 = reader.GetString(0);
+                        string p2 = reader.GetString(1);
+                        string winner = reader.IsDBNull(2) ? "" : reader.GetString(2);
+                        string endReason = reader.GetString(3);
+                        int p1Alive = reader.GetInt32(4);
+                        int p2Alive = reader.GetInt32(5);
+                        string dateUtc = reader.GetString(6);
+
+                        bool isP1 = string.Equals(p1, username, StringComparison.OrdinalIgnoreCase);
+                        string opponent = isP1 ? p2 : p1;
+                        int myAlive = isP1 ? p1Alive : p2Alive;
+                        int oppAlive = isP1 ? p2Alive : p1Alive;
+
+                        string result = string.IsNullOrWhiteSpace(winner)
+                            ? "BERDINKETA"
+                            : string.Equals(winner, username, StringComparison.OrdinalIgnoreCase) ? "IRABAZI" : "GALDU";
+
+                        list.Add(new
+                        {
+                            DateUtc = dateUtc,
+                            Opponent = opponent,
+                            Result = result,
+                            EndReason = endReason,
+                            MyAlive = myAlive,
+                            OpponentAlive = oppAlive
+                        });
+                    }
+
+                    WriteResponse(stream, "OK|" + JsonSerializer.Serialize(list));
+                }
+                catch (Exception ex)
+                {
+                    WriteResponse(stream, "ERROR|DB error: " + ex.Message);
+                }
             }
             else
             {

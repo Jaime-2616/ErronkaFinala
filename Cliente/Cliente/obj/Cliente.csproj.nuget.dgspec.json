@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Cliente.csproj": {}
+    "F:\\Clase\\ErronkaFinala\\Cliente\\Cliente\\Cliente.csproj": {}
   },
   "projects": {
-    "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Cliente.csproj": {
+    "F:\\Clase\\ErronkaFinala\\Cliente\\Cliente\\Cliente.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Cliente.csproj",
+        "projectUniqueName": "F:\\Clase\\ErronkaFinala\\Cliente\\Cliente\\Cliente.csproj",
         "projectName": "Cliente",
-        "projectPath": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\Cliente.csproj",
+        "projectPath": "F:\\Clase\\ErronkaFinala\\Cliente\\Cliente\\Cliente.csproj",
         "packagesPath": "C:\\Users\\maner\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\maner\\Downloads\\Bien\\Cliente\\Cliente\\obj\\",
+        "outputPath": "F:\\Clase\\ErronkaFinala\\Cliente\\Cliente\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\maner\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -49,6 +49,10 @@
             "Microsoft.Data.Sqlite": {
               "target": "Package",
               "version": "[10.0.1, )"
+            },
+            "QuestPDF": {
+              "target": "Package",
+              "version": "[2024.6.2, )"
             }
           },
           "imports": [

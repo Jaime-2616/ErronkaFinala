@@ -186,7 +186,7 @@
                                VerticalAlignment="Top"
                                Margin="0,14,0,0"/>
 
-                    <!-- Historial (derecha, primero de los botones) -->
+                    <!-- Historial -->
                     <Button x:Name="HistoryButton"
                             Grid.Column="1"
                             Width="120"
